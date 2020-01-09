@@ -22,7 +22,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>None</string>
 			<key>CFBundleURLName</key>
-			<string>uk.me.laverty.KeitaiWaniKani</string>
+			<string>com.hellix.KeitaiWaniKani</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>kwk</string>

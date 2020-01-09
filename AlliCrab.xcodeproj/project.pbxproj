@@ -1734,10 +1734,10 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = WaniKaniStudyQueueWidget/WaniKaniStudyQueueWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 91;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = WaniKaniStudyQueueWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.KeitaiWaniKani.WaniKaniStudyQueueWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.KeitaiWaniKani.WaniKaniStudyQueueWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1751,10 +1751,10 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = WaniKaniStudyQueueWidget/WaniKaniStudyQueueWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 91;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = WaniKaniStudyQueueWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.KeitaiWaniKani.WaniKaniStudyQueueWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.KeitaiWaniKani.WaniKaniStudyQueueWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1780,7 +1780,7 @@
 				INFOPLIST_FILE = WaniKaniKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.WaniKaniKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.WaniKaniKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1810,7 +1810,7 @@
 				INFOPLIST_FILE = WaniKaniKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.WaniKaniKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.WaniKaniKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1826,7 +1826,7 @@
 			baseConfigurationReference = 5E20B51533E4BC7C7A20CA61 /* Pods-WaniKaniKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = WaniKaniKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.laverty.WaniKaniKitTests;
@@ -1842,7 +1842,7 @@
 			baseConfigurationReference = DE751F440B1797A335910A75 /* Pods-WaniKaniKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = WaniKaniKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.laverty.WaniKaniKitTests;
@@ -1971,10 +1971,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlliCrab/AlliCrab.entitlements;
 				CURRENT_PROJECT_VERSION = 91;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = AlliCrab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.KeitaiWaniKani;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.KeitaiWaniKani;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1988,10 +1988,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlliCrab/AlliCrab.entitlements;
 				CURRENT_PROJECT_VERSION = 91;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = AlliCrab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.KeitaiWaniKani;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.KeitaiWaniKani;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2005,10 +2005,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = AlliCrabUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.AlliCrabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.AlliCrabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -2024,10 +2024,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QAN68L9NX;
+				DEVELOPMENT_TEAM = PVQ5U3H7W6;
 				INFOPLIST_FILE = AlliCrabUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.laverty.AlliCrabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellix.AlliCrabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

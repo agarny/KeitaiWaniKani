@@ -33,7 +33,7 @@ open class DefaultDatabaseConnectionFactory: DatabaseConnectionFactory {
 
 public class AppGroupDatabaseConnectionFactory: DefaultDatabaseConnectionFactory {
     public init() {
-        let groupIdentifier = "group.uk.me.laverty.KeitaiWaniKani"
+        let groupIdentifier = "group.com.hellix.KeitaiWaniKani"
         guard let appGroupContainerURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupIdentifier) else {
             os_log("Can't find group shared directory for group identifier %@", type: .fault, groupIdentifier)
             fatalError("Can't find group shared directory for group identifier \(groupIdentifier)")

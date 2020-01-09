@@ -1,7 +1,7 @@
-app_identifier "uk.me.laverty.KeitaiWaniKani"
-apple_id "chris@laverty.uk"
+app_identifier "com.hellix.KeitaiWaniKani"
+apple_id "agarny@hellix.com"
 
-team_id "5QAN68L9NX"
+team_id "PVQ5U3H7W6"
 
 # you can even provide different app identifiers, Apple IDs and team names per lane:
 # More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md

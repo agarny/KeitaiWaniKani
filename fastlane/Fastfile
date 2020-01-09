@@ -79,8 +79,8 @@ platform :ios do
   desc "Reset to default AppID, App Groups, and Bundle identifiers"
   desc "This will reset the identifiers to the default values as on the GitHub repository.  Does not remove the created App IDs or App Groups from the developer portal."
   lane :resetID do
-    default_app_identifier = "uk.me.laverty.KeitaiWaniKani"
     
+    default_app_identifier = "com.hellix.KeitaiWaniKani"
     update_local_app_identifiers(
       app_identifier: default_app_identifier
     )

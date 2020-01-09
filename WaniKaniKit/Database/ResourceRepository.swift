@@ -18,8 +18,8 @@ public extension NSNotification.Name {
 }
 
 public extension CFNotificationName {
-    private static let notificationBaseName = "uk.me.laverty.keitaiWaniKani.notifications"
     
+    private static let notificationBaseName = "com.hellix.keitaiWaniKani.notifications"
     static let waniKaniAssignmentsDidChange = CFNotificationName("\(notificationBaseName).waniKaniAssignmentsDidChange" as CFString)
     static let waniKaniLevelProgressionDidChange = CFNotificationName("\(notificationBaseName).waniKaniLevelProgressionDidChange" as CFString)
     static let waniKaniReviewStatisticsDidChange = CFNotificationName("\(notificationBaseName).waniKaniReviewStatisticsDidChange" as CFString)
