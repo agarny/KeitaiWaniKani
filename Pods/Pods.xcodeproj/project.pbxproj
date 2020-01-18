@@ -7,169 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		023CC68A2675688E7D8B8AF484C57296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		0737940FBE76852CA25279555FA9224A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E1F1458B20700158FCA820B3E4AB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		07E2FBBEAC6C78A52F1F0CD8D3EAB45F /* Pods-WaniKaniKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3981821C2E79D54C3054BCD183F14C /* Pods-WaniKaniKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		085812CD32A833235A826765DFEA5A38 /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = C648F5DBCA9A004D000EBB07E499E1DB /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0D9F8133ADFA4F0CE6FA0D0956D58D85 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ED7087C4B9768A630AFF4420FC0096 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0F4036489CE432B18A40B0379AB5D36D /* SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5B1548458BB187EC1C4C3A3FD10EF /* SimulatorStatusMagic-dummy.m */; };
-		1057F53C17DF752472A1BA5E133D33DA /* SDStatusBarOverriderPost9_0.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E347342DFBC86EB0ECD54812C7FE5C /* SDStatusBarOverriderPost9_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1115F290A38467BA783AF30E4F98F64D /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AC2E287B6C786CF0414E05820975D1 /* SDStatusBarOverriderPre8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		136218B2631175B71D93FAC55519FC54 /* SDStatusBarOverriderPost10_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA26DB94B37AE15452CFDBEFB1B9DEC /* SDStatusBarOverriderPost10_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		17584A4EF58F748634FDE31BC41CB15D /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A7B587B1093BB58B948E08D112C6ED /* 1Password.xcassets */; };
-		1D713759C5B1430E9E6EEA6B8B714682 /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE6FD6F778B352B1130643EE663875E /* SDStatusBarOverrider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DAE3E38112E0CE7564557D390AA97E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		23829FF9294D5A89C5E1F01045BA7374 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B40F29ACFDD22EA4828475C74D21 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		29B18B3C92DE87D25A8EECF1DB4A6053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D43D448454811C7F71C7F976D03953 /* UIKit.framework */; };
-		307B70B6F58ED5F4CB2CB23840712509 /* 1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8583BC9402325ECA1387EFF1EA3FD5 /* 1PasswordExtension-dummy.m */; };
-		407DA38BA24A68606EC093310F908FCE /* Pods-AlliCrabUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EA090C5D3EAA7D8F83B7FE22FBF924 /* Pods-AlliCrabUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43A7518C379811BD0DA2B6FCB7C51113 /* SimulatorStatusMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2013A86B1CC60A5F1E7A53192D93DAB /* SimulatorStatusMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E55F4F4881756272AA1EB5B903DA79 /* sqlite3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF21F56C71D43AC5C4144364DF77CC9 /* sqlite3-dummy.m */; };
-		46DB1EB90693AEE7699ADCDB7B517A8E /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C514638ADF8635DE6151528CEAE0E /* OnePasswordExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		50086F4DF15D7C12E098080DDF40FFE5 /* Pods-AlliCrab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E16B40907A97BF0F2439710DABCF44 /* Pods-AlliCrab-dummy.m */; };
-		51CD34C067F889F289DAE82A76E2F12E /* SDStatusBarOverriderPost9_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 62614BA9808BF7CD78EFA95D26899502 /* SDStatusBarOverriderPost9_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54C724B0E2ABA49568645F46BC6B6423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D43D448454811C7F71C7F976D03953 /* UIKit.framework */; };
-		56A9677BAD2F7E11BEB487A7EFBD8BDD /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F199A1DF1B6EEC4CA97C9934F96DBE9F /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		597FF072B00A40856E438AE24596033C /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D052A951BB06133D2F8A0F05E0E1F7 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59E5E143A9EFC301D85928FD362CD4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		5B793A0574AED7F86030791560609215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		62159CE76089E849EF785F00728D43B6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9BB6D45508FC6085A21B74525F3F1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		64BF9D023385818725A6895ED0F1DB32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		6B605AB27D44CD053268C714A8CE3CDF /* SDStatusBarOverriderPost12_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA83BE26D5C62255AAC555CE6C5AFBF /* SDStatusBarOverriderPost12_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FF78BE22F1A4E53DEEB5ADAF692E6CF /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 406F9611AA7C5629E990FA96325DACB4 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72551C1B931B1D4444DB56E2AF9692E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		78705FF8B9DD9927838BF04065F25839 /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A72D1434DEE08DC0487AF1474F21110 /* OnePasswordExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AD46FB3C8B4FD6CE47FA5FA36084FB0 /* Pods-WaniKaniKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195E2761062A520372D9092844FE2A7 /* Pods-WaniKaniKit-dummy.m */; };
-		7BF3CF8896AA4B7273DEF11B3D40DB18 /* Pods-AlliCrabUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 347999265A0A7ABD77FF97BB7A3C8380 /* Pods-AlliCrabUITests-dummy.m */; };
-		7E15517BC75854499F923B34AD131F5D /* Pods-WaniKaniStudyQueueWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F3F86A3D8232013B194EF6C445648C /* Pods-WaniKaniStudyQueueWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FE16725F91C85B0E10C0293BAAA5982 /* Pods-WaniKaniKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDA079760D6F3650220E9A1E90E54D2 /* Pods-WaniKaniKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		830AD6BF899FEA60EEA926C552A944CF /* Pods-WaniKaniStudyQueueWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97A76CD1E84594939EF8393CD56931 /* Pods-WaniKaniStudyQueueWidget-dummy.m */; };
-		8DE3717D17C2A29B9EFE0569FDE2B3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		90573686CA4F5C1E1288733323D045A0 /* sqlite3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243105616B497D6F315396E19479811 /* sqlite3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		906666AD04041D056257504C5B526D5F /* SDStatusBarOverriderPost9_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CA93FB642826F8FB0E06235EADC3D7 /* SDStatusBarOverriderPost9_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9665DE80AA226626C962626370D269CB /* SDStatusBarOverriderPost10_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB26E7DA4B4624A07C99BC1D02475E4 /* SDStatusBarOverriderPost10_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97CE722AA4BC4DB8F0EB7E1261541947 /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C06327E1B561EFAE70401D5757C0892 /* SDStatusBarOverriderPost8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BAB83CC37152031C5B3B4AF90D5D784 /* SDStatusBarOverriderPost12_0.m in Sources */ = {isa = PBXBuildFile; fileRef = F8924B1084D117AE3BBEA4F2E75C969C /* SDStatusBarOverriderPost12_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A3CB3901260FDC9C2D35B46402ABD4A2 /* SDStatusBarOverriderPost10_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279F743DD87F8FAFF96B10FA3A28BEB /* SDStatusBarOverriderPost10_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A79D8B72B353FA983A5CB737F8B5CD6B /* 1PasswordExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D2F79E3A2C54B77D93BB75204C8713 /* 1PasswordExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A80DF112B8CA7BFBFC42E23199B1DF65 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142659D09DC14B69760EC4A5A060383E /* sqlite3.framework */; };
-		AC2CF246B835C8D3E73CF96458798B40 /* SDStatusBarOverriderPost11_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE97DF274AFB20AF0E4F9721C4233D9 /* SDStatusBarOverriderPost11_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BC2706D299D59FA95CE5EEBE7EA941BF /* SDStatusBarOverriderPost9_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D51BEBD2835EC4EAF5CC79CF60FBA7 /* SDStatusBarOverriderPost9_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C0A6B190B2A215BF7474E74412835DF1 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAB73E1D5336128E4DA299AA298DC1C /* FMDB-dummy.m */; };
-		C5E2DB9C0B5A43CCA5419D232169587E /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDF158D5DF21BC9ECE1AFE2DEA317AA /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6184B380255DCE803E84154540B45E7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D487DB1C33912FBF0441E05C1CA62D29 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C6E7967B0F074829D53CEF874221E526 /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7B6056BF74894E21706445A2B0134 /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CA893647F9BCAC67DA61831C01B8B530 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F611130F96FB2DD362DFCA35D29556E /* sqlite3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CB41CD4E101971F1F65294E866B58BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		D7492848E99FD931D96FBFE5DB4B0CE2 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3FBC16018B37624F79F4D208F7237B /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7FEC06626A3ED97284519030645DB39 /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 317F865C2F842AD6CE534EDCD44E6736 /* SDStatusBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC6E1AC16B5B7024795CBCC077F459C3 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE53153CB4A75F350EED99BE9DFF0CA5 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCDCCB229AB0D708AC74730D54883AD2 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D88213CFB78BF3DC487F015A77D0EC /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0AABDC715F8BA209F1F6445AFFE876 /* Pods-AlliCrab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4460B20CFF64779348B13EA4326B0E05 /* Pods-AlliCrab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1489D9551561846435F9E21614FAF66 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AB7EE5E029B0A53281A68FFC10CDA9 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6698319D6E2ACE8337CCB6D2F4EDC2C /* Pods-WaniKaniKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61D1C5795A53A2AAEED94D9C698007 /* Pods-WaniKaniKitTests-dummy.m */; };
-		E8300AE821759B714D6ECA7AB4337091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
-		ED511D2F505B779355F056B6321E622F /* OnePasswordExtensionResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE134FFE9E99F48C4AD3003224A06E06 /* OnePasswordExtensionResources.bundle */; };
-		EF54A91B53761F678D3FAA59FDDA3D9A /* SDStatusBarOverriderPost10_3.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AC54ED1A1B2CD97A190A0F9184C76F /* SDStatusBarOverriderPost10_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F29A51660489396C0803454198D4A2BD /* SDStatusBarOverriderPost11_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E55511EF708E4DA0F5DDD8D0B41C3A /* SDStatusBarOverriderPost11_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F42FB5895242CD4325FD36853B24158D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80019CCA8C1449FAD14A3B18704AA51 /* MobileCoreServices.framework */; };
-		F50DD84EE59EEB380CA9F64E1D88EE5D /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FC8B352F05D36A6A9DF66ADC8DA9C9DA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A6476DF5E7F8A67FDC99CF9A638D8A /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09AC354D7180A0BD8BE2044AF3222249 /* SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5B1548458BB187EC1C4C3A3FD10EF /* SimulatorStatusMagic-dummy.m */; };
+		139E3AA8CF1CB0CC8BAA4D580EE8ECD7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A6476DF5E7F8A67FDC99CF9A638D8A /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158D16F3E9D56994626E111274244153 /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7B6056BF74894E21706445A2B0134 /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1606BB9F6180524E8E13F62530D8ED9F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F199A1DF1B6EEC4CA97C9934F96DBE9F /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17198E7EFC208B837AB0441729718DD8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9BB6D45508FC6085A21B74525F3F1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1C1F68E2F0B8A9B7B8BBD0C21058AC7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		22AE422553829A5D595C798937174D90 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142659D09DC14B69760EC4A5A060383E /* sqlite3.framework */; };
+		28F91404622D0BEC773C7596200B44B8 /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 317F865C2F842AD6CE534EDCD44E6736 /* SDStatusBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A71C61DFDFC707E73B5209E527676AD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AB7EE5E029B0A53281A68FFC10CDA9 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA355FE4A976BEFD6D20D581A604FC5 /* Pods-WaniKaniKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195E2761062A520372D9092844FE2A7 /* Pods-WaniKaniKit-dummy.m */; };
+		2CC75675162B28BE3058B2A1A34F3D94 /* Pods-WaniKaniKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDA079760D6F3650220E9A1E90E54D2 /* Pods-WaniKaniKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34EFD6612FD00F3A6062229F0ECE9B4B /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE6FD6F778B352B1130643EE663875E /* SDStatusBarOverrider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBD15779261DA16AC4CCD1702948FFA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D052A951BB06133D2F8A0F05E0E1F7 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B22EB0BFDBFE8EFA9B8EDF68354B65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		40C3EB9A6EF67ED4F5F71BD61218F965 /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C06327E1B561EFAE70401D5757C0892 /* SDStatusBarOverriderPost8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E12FA9CF71F062230A70859D18D419 /* Pods-AlliCrabUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 347999265A0A7ABD77FF97BB7A3C8380 /* Pods-AlliCrabUITests-dummy.m */; };
+		44FC0EF797DDA47295FE11FB7904BA8B /* SimulatorStatusMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2013A86B1CC60A5F1E7A53192D93DAB /* SimulatorStatusMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45563D27912ABDD64420A45B4FFC06BF /* SDStatusBarOverriderPost10_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB26E7DA4B4624A07C99BC1D02475E4 /* SDStatusBarOverriderPost10_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54D070A8BD62D881AE8E534F76D8F7CF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D32E7DA81EB22D416B5CB57B9D1E8E89 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D6FCC7887F0D51A76CD5044533DB7B /* SDStatusBarOverriderPost10_3.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AC54ED1A1B2CD97A190A0F9184C76F /* SDStatusBarOverriderPost10_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58239C1B8735DBF0D8BBB07B9D4E7C2E /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDF158D5DF21BC9ECE1AFE2DEA317AA /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB1F83A6DFE5B26EF1C6D47A2B7279C /* SDStatusBarOverriderPost10_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA26DB94B37AE15452CFDBEFB1B9DEC /* SDStatusBarOverriderPost10_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64976DF33414B626E7FACDEE37F996CA /* Pods-AlliCrab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4460B20CFF64779348B13EA4326B0E05 /* Pods-AlliCrab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64AB27EA36A0890A92B66A5163F4BB2D /* Pods-AlliCrabUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EA090C5D3EAA7D8F83B7FE22FBF924 /* Pods-AlliCrabUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684E9A8B04E6D89AB72D01D5076EFBCC /* SDStatusBarOverriderPost11_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE97DF274AFB20AF0E4F9721C4233D9 /* SDStatusBarOverriderPost11_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F646EEDD257696F84E6E77F98E42238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D43D448454811C7F71C7F976D03953 /* UIKit.framework */; };
+		70E4360DA2EC34E960B0D71557A3CA5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80019CCA8C1449FAD14A3B18704AA51 /* MobileCoreServices.framework */; };
+		76FA778F6D573366E2C7F01BE09BC1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		7C397D4E15D889247339BC40F645C734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D43D448454811C7F71C7F976D03953 /* UIKit.framework */; };
+		7CEA008BF1830981DF2662A092327C2A /* SDStatusBarOverriderPost12_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA83BE26D5C62255AAC555CE6C5AFBF /* SDStatusBarOverriderPost12_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DC5874D087D4C5C0B5B5C2A1E0D2F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		8600FC2912C6B754C715751C0EFF2356 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		8F5D7D1DA9AD411E99DA3A21977CD37B /* SDStatusBarOverriderPost9_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D51BEBD2835EC4EAF5CC79CF60FBA7 /* SDStatusBarOverriderPost9_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97B2A80D138941CF609872D03D5591A0 /* SDStatusBarOverriderPost9_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 62614BA9808BF7CD78EFA95D26899502 /* SDStatusBarOverriderPost9_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19321291B5176B6625078CEC5A47870 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAB73E1D5336128E4DA299AA298DC1C /* FMDB-dummy.m */; };
+		A1AF629C67E124BE4863A46CEDB1BD1F /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C514638ADF8635DE6151528CEAE0E /* OnePasswordExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A1F6CD006BB15B1B2E188E267B5C6C53 /* SDStatusBarOverriderPost9_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CA93FB642826F8FB0E06235EADC3D7 /* SDStatusBarOverriderPost9_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24A82AB32234C06C898A5E118DE8FCA /* SDStatusBarOverriderPost11_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E55511EF708E4DA0F5DDD8D0B41C3A /* SDStatusBarOverriderPost11_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8398D542B8174A84BA7D6A4FAAA7D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		ADC66B8B539820508ECE477B1314F310 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ED7087C4B9768A630AFF4420FC0096 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0DB5EBD7637B005009C1E0EA68FA14F /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A7B587B1093BB58B948E08D112C6ED /* 1Password.xcassets */; };
+		B126DE35BCCE793C8C8C8D7CA784BF66 /* sqlite3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF21F56C71D43AC5C4144364DF77CC9 /* sqlite3-dummy.m */; };
+		B1F3432E844E961EF24D663433EDE247 /* Pods-WaniKaniKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61D1C5795A53A2AAEED94D9C698007 /* Pods-WaniKaniKitTests-dummy.m */; };
+		B6CC9FA52F8DAE2033ADF72515E8BECA /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D88213CFB78BF3DC487F015A77D0EC /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA9204CDE8649125FC14C4ECAD78FD1 /* Pods-WaniKaniStudyQueueWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F3F86A3D8232013B194EF6C445648C /* Pods-WaniKaniStudyQueueWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB62BE458CA6004CCAD2A319433E203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		CF8BF1B301A42429F18D977F3384AF6A /* sqlite3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243105616B497D6F315396E19479811 /* sqlite3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D087C3D5200A033A4AE81CEDF2E12387 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B40F29ACFDD22EA4828475C74D21 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D0A92D208F1F65332C364703C128E9A7 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 406F9611AA7C5629E990FA96325DACB4 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56F39D9A27992DF0CF074A30CA30F3E /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A72D1434DEE08DC0487AF1474F21110 /* OnePasswordExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D582507665AA344724DF19F095E144A7 /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = C648F5DBCA9A004D000EBB07E499E1DB /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5A317C6ED74A39C588314E6D4B08B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		D6B7035927EF57E0EC0EBA9B449DEDAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */; };
+		D7D3F0C1BE02E0D66F7CA116C9C91306 /* Pods-WaniKaniStudyQueueWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97A76CD1E84594939EF8393CD56931 /* Pods-WaniKaniStudyQueueWidget-dummy.m */; };
+		D8A87D24F5A85B7AB67ADC0FAF37E722 /* Pods-AlliCrab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E16B40907A97BF0F2439710DABCF44 /* Pods-AlliCrab-dummy.m */; };
+		D99929870799AB9ECD4EB1B621D7D3D6 /* Pods-WaniKaniKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3981821C2E79D54C3054BCD183F14C /* Pods-WaniKaniKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD965D369E908BCB3DBF80FBC2F11D4 /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AC2E287B6C786CF0414E05820975D1 /* SDStatusBarOverriderPre8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF9288E37DE71075329B9052B809CCF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA6B292410E98FEDF6C3F57BAE74B2 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E06B3ABE50445678A9533B315870D06C /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B95075B5BB1C1B7AFBC2012AB892EA /* sqlite3ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E70F5B033382339F8FC9D33860A5C04B /* OnePasswordExtensionResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */; };
+		E83AB82A6CD341EF73DD8B9720930EF3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E1F1458B20700158FCA820B3E4AB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EF8D714151459E727586B34C7397300B /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F54A2CE971D75256D70105DD720C0CFB /* 1PasswordExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D2F79E3A2C54B77D93BB75204C8713 /* 1PasswordExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74B8EA5F69C5A46702B4771444200DB /* 1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8583BC9402325ECA1387EFF1EA3FD5 /* 1PasswordExtension-dummy.m */; };
+		FA6AE4D3EEB07E4BD3D81A9DAA78C9B9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D487DB1C33912FBF0441E05C1CA62D29 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FCC7E94FC0121CA4A6E7A1553813304B /* SDStatusBarOverriderPost12_0.m in Sources */ = {isa = PBXBuildFile; fileRef = F8924B1084D117AE3BBEA4F2E75C969C /* SDStatusBarOverriderPost12_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FD560C3760CB4905FEBFAE6D0E09EB89 /* SDStatusBarOverriderPost9_0.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E347342DFBC86EB0ECD54812C7FE5C /* SDStatusBarOverriderPost9_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FF0FFDEF3BED44CEE43639883104251E /* SDStatusBarOverriderPost10_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279F743DD87F8FAFF96B10FA3A28BEB /* SDStatusBarOverriderPost10_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0AA1331B7E657A2CDC126F880900A2E2 /* PBXContainerItemProxy */ = {
+		09B1B06D0AC37E413FA21B8ABEFFCAC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
-		2FBE35DC78CEBD6D425538A20767966A /* PBXContainerItemProxy */ = {
+		0DCEBC3228883E2AD1B7B6343F290E6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
-		3110486772A9ECCE26E651E190F4A5B4 /* PBXContainerItemProxy */ = {
+		13E26FED196BC8866FBFFE5791AC6861 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
 			remoteInfo = sqlite3;
 		};
-		32629F952C18D80378DF943186EB71C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		341B12605B48ADA38ABCFDA5FADB8710 /* PBXContainerItemProxy */ = {
+		17424B77C55C9479E3575DA573EAF77D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
 			remoteInfo = sqlite3;
 		};
-		6DE7122F4B33B0A40F031565C3177C54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		89A8480B5824C04AA17DB4BA94D088E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E34DB7C0B7C3F9DD81B0CFF93D50206;
-			remoteInfo = 1PasswordExtension;
-		};
-		916EC8103377431E88446F2438A810EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		AA0CB1D9795D583BCD9DD8B8C1C3F5AA /* PBXContainerItemProxy */ = {
+		43FEC9F992AAA3898B76C6CF04B43C28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
 			remoteInfo = sqlite3;
 		};
-		BEC806E46C8953792201624CA7DD2196 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
-			remoteInfo = sqlite3;
-		};
-		C1F6CF0C4BB12C17312EF21C1879FACE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
-			remoteInfo = sqlite3;
-		};
-		D274551A343B041653F5E45F5AFD9F8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6208D25DC48703C16058EB76004A61D6;
-			remoteInfo = "1PasswordExtension-OnePasswordExtensionResources";
-		};
-		E933F59A3293D765DC194053DFFC444D /* PBXContainerItemProxy */ = {
+		456D915CF2D75D30777D7DD0EA68AC5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 95F19093D340358F7EE721EC01F43355;
 			remoteInfo = SimulatorStatusMagic;
 		};
-		FC3E4A91CD53582B90F68EE8A9A5E5F4 /* PBXContainerItemProxy */ = {
+		4E9F209473A316105322B3B09D9501B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		700B012B1D36F34BCBD15F2B0D2880CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		764048A5C6FC097C56A86E5304CF4D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
+			remoteInfo = sqlite3;
+		};
+		82A72FD5D3F8A23A06EE8A5C0F93FD0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		9150AD2514D058CBE473BC139C0CCE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6208D25DC48703C16058EB76004A61D6;
+			remoteInfo = "1PasswordExtension-OnePasswordExtensionResources";
+		};
+		A60A1E10DB13224C622F4536A281621E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E34DB7C0B7C3F9DD81B0CFF93D50206;
+			remoteInfo = 1PasswordExtension;
+		};
+		A8CD1DB129635E7598994323A432D045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7578477CA77D98D8282C395822C4A93C;
+			remoteInfo = sqlite3;
+		};
+		A9BC9AA4B20B934026AFF8BA4FAE2AC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -184,9 +184,7 @@
 		0EE97DF274AFB20AF0E4F9721C4233D9 /* SDStatusBarOverriderPost11_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost11_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost11_0.m; sourceTree = "<group>"; };
 		0F0C514638ADF8635DE6151528CEAE0E /* OnePasswordExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OnePasswordExtension.m; sourceTree = "<group>"; };
 		0F1567EDF5785F9851FF1CCDFE84F12A /* Pods-WaniKaniKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaniKaniKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F611130F96FB2DD362DFCA35D29556E /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = "sqlite-amalgamation-3270200/sqlite3.c"; sourceTree = "<group>"; };
 		1228CF01D7A18A0AD29FDA712DE0FBAC /* Pods-AlliCrab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrab-acknowledgements.plist"; sourceTree = "<group>"; };
-		13865E588310DB3516DE1952BE6E2EFF /* Pods_WaniKaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		142659D09DC14B69760EC4A5A060383E /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C503CCF951DDB6653298DBEE6EFBEAF /* Pods-AlliCrab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlliCrab.release.xcconfig"; sourceTree = "<group>"; };
 		1E076FA29C3A699EDC8231176D87453E /* Pods-AlliCrab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlliCrab-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -196,6 +194,9 @@
 		23458F468EDDE58ACF84C94813AB4F18 /* Pods-AlliCrab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlliCrab-frameworks.sh"; sourceTree = "<group>"; };
 		23BD7F2CC16861AB6C335A6C2C3B05BC /* Pods-WaniKaniKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaniKaniKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		23E16B40907A97BF0F2439710DABCF44 /* Pods-AlliCrab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlliCrab-dummy.m"; sourceTree = "<group>"; };
+		23FA6B292410E98FEDF6C3F57BAE74B2 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = "sqlite-amalgamation-3300100/sqlite3.c"; sourceTree = "<group>"; };
+		267EAC59542B3DCA37815E086A02C12B /* Pods_WaniKaniStudyQueueWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniStudyQueueWidget.framework; path = "Pods-WaniKaniStudyQueueWidget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C1ED275BCEE0AB97805809867586C /* Pods_AlliCrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlliCrab.framework; path = "Pods-AlliCrab.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C61D1C5795A53A2AAEED94D9C698007 /* Pods-WaniKaniKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaniKaniKitTests-dummy.m"; sourceTree = "<group>"; };
 		317F865C2F842AD6CE534EDCD44E6736 /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
 		347999265A0A7ABD77FF97BB7A3C8380 /* Pods-AlliCrabUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlliCrabUITests-dummy.m"; sourceTree = "<group>"; };
@@ -205,14 +206,15 @@
 		4352D3D0D9A39015B2AA47FE517B8E17 /* Pods-WaniKaniKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		4460B20CFF64779348B13EA4326B0E05 /* Pods-AlliCrab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlliCrab-umbrella.h"; sourceTree = "<group>"; };
 		45D51BEBD2835EC4EAF5CC79CF60FBA7 /* SDStatusBarOverriderPost9_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.m; sourceTree = "<group>"; };
-		484A488A81406E331FEE48827CB426FF /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4919D6DD0F814B7EE87D275DB685F730 /* SimulatorStatusMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimulatorStatusMagic.modulemap; sourceTree = "<group>"; };
 		4E1F303B2735E7878311144EAC26CD33 /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
 		4E3981821C2E79D54C3054BCD183F14C /* Pods-WaniKaniKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaniKaniKitTests-umbrella.h"; sourceTree = "<group>"; };
 		50ED7087C4B9768A630AFF4420FC0096 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5198952392F955B8435817C261905E6C /* Pods_WaniKaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniKit.framework; path = "Pods-WaniKaniKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		535C3D746A19B0D080C3927DEA4EC2B4 /* Pods-AlliCrab-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrab-Info.plist"; sourceTree = "<group>"; };
 		55A6476DF5E7F8A67FDC99CF9A638D8A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnePasswordExtension.framework; path = 1PasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A181427BDDEFB89712C1FB69850942 /* Pods-WaniKaniKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaniKaniKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A72D1434DEE08DC0487AF1474F21110 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
 		5E8583BC9402325ECA1387EFF1EA3FD5 /* 1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
@@ -220,9 +222,7 @@
 		5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = 1PasswordExtension.xcconfig; sourceTree = "<group>"; };
 		62614BA9808BF7CD78EFA95D26899502 /* SDStatusBarOverriderPost9_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.h; sourceTree = "<group>"; };
 		626707698C443006D301115C20621C9E /* Pods-WaniKaniKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WaniKaniKit.modulemap"; sourceTree = "<group>"; };
-		6812606B20E7EC659D94E74EE619E37E /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C31B40F29ACFDD22EA4828475C74D21 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		6F41F427790EC8312B338BD4B6979DE7 /* Pods_AlliCrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlliCrabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7130F54AD04BB7D10D006D941AA2438A /* Pods-AlliCrabUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlliCrabUITests.modulemap"; sourceTree = "<group>"; };
 		723407A29D0DC97FE271EE23AD529ACF /* Pods-WaniKaniKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		731CA810FF6E5E6F36203A2C31E7E462 /* Pods-WaniKaniStudyQueueWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaniKaniStudyQueueWidget.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,7 +235,6 @@
 		7813714A20F82F42FAB53E8BB503E3AA /* Pods-WaniKaniKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WaniKaniKitTests.modulemap"; sourceTree = "<group>"; };
 		7BA83BE26D5C62255AAC555CE6C5AFBF /* SDStatusBarOverriderPost12_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost12_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost12_0.h; sourceTree = "<group>"; };
 		7C06327E1B561EFAE70401D5757C0892 /* SDStatusBarOverriderPost8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.h; sourceTree = "<group>"; };
-		7CDFB64E4C79DAD2FD42A79E06501C48 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA26DB94B37AE15452CFDBEFB1B9DEC /* SDStatusBarOverriderPost10_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost10_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.m; sourceTree = "<group>"; };
 		7ED004675CA1E564625DEE807C48C896 /* 1PasswordExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "1PasswordExtension-Info.plist"; sourceTree = "<group>"; };
 		7FDF158D5DF21BC9ECE1AFE2DEA317AA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
@@ -243,56 +242,57 @@
 		8136A412C36CF82F6454293D940F2526 /* Pods-WaniKaniStudyQueueWidget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaniKaniStudyQueueWidget-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8195E2761062A520372D9092844FE2A7 /* Pods-WaniKaniKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaniKaniKit-dummy.m"; sourceTree = "<group>"; };
 		86AC2E287B6C786CF0414E05820975D1 /* SDStatusBarOverriderPre8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPre8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.h; sourceTree = "<group>"; };
-		874944E1E0B0412A1E3766CB096D9987 /* Pods_WaniKaniStudyQueueWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniStudyQueueWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1EEF9C803F4D3A3B8B3379097DAC72 /* Pods-WaniKaniStudyQueueWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaniKaniStudyQueueWidget.release.xcconfig"; sourceTree = "<group>"; };
 		8B4C359F74AF8FC64FADE0F28BAADE4D /* Pods-AlliCrabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlliCrabUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BCBDC71673615E23A1F7A48C0EF54E4 /* ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist"; sourceTree = "<group>"; };
-		93493A33043B5BB3784C41F984117526 /* Pods_WaniKaniKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		938771FB0EC1F70C5EF8C2A22288B330 /* Pods-AlliCrabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlliCrabUITests.release.xcconfig"; sourceTree = "<group>"; };
 		955E26ECE06F49A6C9B0D71A24581D97 /* Pods-AlliCrab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlliCrab.modulemap"; sourceTree = "<group>"; };
+		96B95075B5BB1C1B7AFBC2012AB892EA /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite-amalgamation-3300100/sqlite3ext.h"; sourceTree = "<group>"; };
 		96EEC35E5378815786ACE09EFB4ED494 /* Pods-WaniKaniKitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaniKaniKitTests-frameworks.sh"; sourceTree = "<group>"; };
 		9CC7B6056BF74894E21706445A2B0134 /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB26E7DA4B4624A07C99BC1D02475E4 /* SDStatusBarOverriderPost10_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.h; sourceTree = "<group>"; };
 		A229451B8893D937CD331AA2EAEC6790 /* Pods-WaniKaniKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniKitTests-Info.plist"; sourceTree = "<group>"; };
 		A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimulatorStatusMagic.framework; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A7B587B1093BB58B948E08D112C6ED /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
 		A80019CCA8C1449FAD14A3B18704AA51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		AB0E96F75BECB9BCC917DE9D444945C6 /* Pods-AlliCrabUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlliCrabUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OnePasswordExtensionResources.bundle; path = "1PasswordExtension-OnePasswordExtensionResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE5B1548458BB187EC1C4C3A3FD10EF /* SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
 		ACE6FD6F778B352B1130643EE663875E /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
 		AD17C4E0530721F948AC75DF4C77176C /* Pods-AlliCrabUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrabUITests-Info.plist"; sourceTree = "<group>"; };
-		AE53153CB4A75F350EED99BE9DFF0CA5 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite-amalgamation-3270200/sqlite3ext.h"; sourceTree = "<group>"; };
 		B42D0123C32B66EE0A4E10BD3640DD72 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		B4507A8AA0AD81E8DFC98020268EFC72 /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqlite3.framework; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorStatusMagic.xcconfig; sourceTree = "<group>"; };
+		B6D164C60F4D93D2F8A502013EAFA4C2 /* Pods_WaniKaniKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniKitTests.framework; path = "Pods-WaniKaniKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F3F86A3D8232013B194EF6C445648C /* Pods-WaniKaniStudyQueueWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaniKaniStudyQueueWidget-umbrella.h"; sourceTree = "<group>"; };
 		B84E151707D52E203FEB33EA985BD905 /* Pods-WaniKaniStudyQueueWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniStudyQueueWidget-Info.plist"; sourceTree = "<group>"; };
-		B9EC130A6A8C01867E1D60BA14CE7E10 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3C166159E01A0BC6717F6A09B2F1EC /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		BF1958BA1BBE41CB3A85B69B78175751 /* sqlite3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqlite3-prefix.pch"; sourceTree = "<group>"; };
-		C1E8F0F3B7428CFB86ADB6B4E58A7E88 /* Pods_AlliCrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlliCrab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C648F5DBCA9A004D000EBB07E499E1DB /* SDStatusBarOverriderPost8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.m; sourceTree = "<group>"; };
 		C8D2F79E3A2C54B77D93BB75204C8713 /* 1PasswordExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-umbrella.h"; sourceTree = "<group>"; };
 		CD97A76CD1E84594939EF8393CD56931 /* Pods-WaniKaniStudyQueueWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaniKaniStudyQueueWidget-dummy.m"; sourceTree = "<group>"; };
 		CDD9BB6D45508FC6085A21B74525F3F1 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		CEDA079760D6F3650220E9A1E90E54D2 /* Pods-WaniKaniKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaniKaniKit-umbrella.h"; sourceTree = "<group>"; };
+		D32E7DA81EB22D416B5CB57B9D1E8E89 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite-amalgamation-3300100/sqlite3.h"; sourceTree = "<group>"; };
 		D34EFFFB94DC8BF2FE985C78A775EC66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D487DB1C33912FBF0441E05C1CA62D29 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		D7E347342DFBC86EB0ECD54812C7FE5C /* SDStatusBarOverriderPost9_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.m; sourceTree = "<group>"; };
 		D86B18210B601FE0233164396075C894 /* Pods-AlliCrabUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrabUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D8BC8A906B99E7CD33C52D1D3E52507B /* Pods-WaniKaniStudyQueueWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WaniKaniStudyQueueWidget.modulemap"; sourceTree = "<group>"; };
 		DBEBC4BEC6206C0F80510922B5C852C9 /* Pods-WaniKaniKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaniKaniKit.debug.xcconfig"; sourceTree = "<group>"; };
-		DE134FFE9E99F48C4AD3003224A06E06 /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePasswordExtensionResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE85C21D06F56F30737683133165A4C5 /* Pods-AlliCrab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlliCrab.debug.xcconfig"; sourceTree = "<group>"; };
 		E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqlite3.xcconfig; sourceTree = "<group>"; };
 		E4AC54ED1A1B2CD97A190A0F9184C76F /* SDStatusBarOverriderPost10_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_3.h; sourceTree = "<group>"; };
 		EB58DA451A2C7902F3A3B551E1D8A93B /* Pods-AlliCrabUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlliCrabUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EBAB73E1D5336128E4DA299AA298DC1C /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		EF0EE88BFB9795880A0BD64893A1E792 /* Pods-WaniKaniKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniKit-Info.plist"; sourceTree = "<group>"; };
-		EF3FBC16018B37624F79F4D208F7237B /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite-amalgamation-3270200/sqlite3.h"; sourceTree = "<group>"; };
 		F115A7AD30CC7E9DF3740678AFAA75B4 /* sqlite3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sqlite3.modulemap; sourceTree = "<group>"; };
 		F199A1DF1B6EEC4CA97C9934F96DBE9F /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		F2013A86B1CC60A5F1E7A53192D93DAB /* SimulatorStatusMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-umbrella.h"; sourceTree = "<group>"; };
+		F2A104DB34EE9B6E1955A7EEF714A9A0 /* Pods_AlliCrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlliCrabUITests.framework; path = "Pods-AlliCrabUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE9E983325C59D6C6AD180FBDEC01F /* 1PasswordExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = 1PasswordExtension.modulemap; sourceTree = "<group>"; };
 		F8924B1084D117AE3BBEA4F2E75C969C /* SDStatusBarOverriderPost12_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost12_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost12_0.m; sourceTree = "<group>"; };
 		FD1F142E552500E1F45A45EF6E4EDB91 /* SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
@@ -301,86 +301,86 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		065D4A652050190D33CECCC230C6B42D /* Frameworks */ = {
+		02E2DE958EAB6E12B5F628036A2EB6F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023CC68A2675688E7D8B8AF484C57296 /* Foundation.framework in Frameworks */,
-				29B18B3C92DE87D25A8EECF1DB4A6053 /* UIKit.framework in Frameworks */,
+				76FA778F6D573366E2C7F01BE09BC1ED /* Foundation.framework in Frameworks */,
+				70E4360DA2EC34E960B0D71557A3CA5D /* MobileCoreServices.framework in Frameworks */,
+				7C397D4E15D889247339BC40F645C734 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0986FF2EC298EA9BC98AC95BD6249279 /* Frameworks */ = {
+		20C40C8B1F70069B0DB67DB39F0312ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB41CD4E101971F1F65294E866B58BDE /* Foundation.framework in Frameworks */,
+				D6B7035927EF57E0EC0EBA9B449DEDAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2426F7404B92DB9AED408252F8A84A39 /* Frameworks */ = {
+		68025FD28F276FC0A94DA5129A47541B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59E5E143A9EFC301D85928FD362CD4B2 /* Foundation.framework in Frameworks */,
+				40B22EB0BFDBFE8EFA9B8EDF68354B65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33B19A00F9CE2EE9D66126D62D9663A1 /* Frameworks */ = {
+		7F632C4A70249FE083BBDB95C71CE3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BF9D023385818725A6895ED0F1DB32 /* Foundation.framework in Frameworks */,
+				D5A317C6ED74A39C588314E6D4B08B4E /* Foundation.framework in Frameworks */,
+				6F646EEDD257696F84E6E77F98E42238 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		351D0361C2766E0553C0D4165CD723B8 /* Frameworks */ = {
+		8636593351A4827A515A8C5118D1DCD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8300AE821759B714D6ECA7AB4337091 /* Foundation.framework in Frameworks */,
+				7DC5874D087D4C5C0B5B5C2A1E0D2F03 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A84AF7A73F290E8D351F11535D70B339 /* Frameworks */ = {
+		97888CE24F42DF1D436EEF10EF6BEB20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8600FC2912C6B754C715751C0EFF2356 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC270BF372E241816E27F0D028C05FC0 /* Frameworks */ = {
+		BDFF44CD54E0602B466BB677D70AAADB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DAE3E38112E0CE7564557D390AA97E6 /* Foundation.framework in Frameworks */,
+				BDB62BE458CA6004CCAD2A319433E203 /* Foundation.framework in Frameworks */,
+				22AE422553829A5D595C798937174D90 /* sqlite3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2370A824453245BE6C192C5904E88DC /* Frameworks */ = {
+		C6205A861EE81C6E84EEF32922DC11B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72551C1B931B1D4444DB56E2AF9692E8 /* Foundation.framework in Frameworks */,
+				1C1F68E2F0B8A9B7B8BBD0C21058AC7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5BF92E5F5801DA9107CFB6D654C62B3 /* Frameworks */ = {
+		C6AB40C1B8B1105B9B434BEF5DB720A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B793A0574AED7F86030791560609215 /* Foundation.framework in Frameworks */,
-				F42FB5895242CD4325FD36853B24158D /* MobileCoreServices.framework in Frameworks */,
-				54C724B0E2ABA49568645F46BC6B6423 /* UIKit.framework in Frameworks */,
+				A8398D542B8174A84BA7D6A4FAAA7D2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3A9CBF68EA0F83C4D27D4464F5809B /* Frameworks */ = {
+		E2A536561F3DB10EE8DDAAC8D0EACACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DE3717D17C2A29B9EFE0569FDE2B3B2 /* Foundation.framework in Frameworks */,
-				A80DF112B8CA7BFBFC42E23199B1DF65 /* sqlite3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +393,7 @@
 				3D6921E883C655C64C95795AAF56D299 /* standalone */,
 				D82AB499E007EFEC4BB8010C5C34132B /* Support Files */,
 			);
+			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -523,6 +524,16 @@
 			path = "../Target Support Files/1PasswordExtension";
 			sourceTree = "<group>";
 		};
+		8068114C16ED4AD469747BD8CBC5A72B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				23FA6B292410E98FEDF6C3F57BAE74B2 /* sqlite3.c */,
+				D32E7DA81EB22D416B5CB57B9D1E8E89 /* sqlite3.h */,
+				96B95075B5BB1C1B7AFBC2012AB892EA /* sqlite3ext.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
 		907190390877E5A6297EC1C39C956F47 /* 1PasswordExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,15 +542,17 @@
 				D5149C2F35800D8E9547FECC863769D6 /* Resources */,
 				7F65DA9975F59D6ACD0C413E8F0D99F8 /* Support Files */,
 			);
+			name = 1PasswordExtension;
 			path = 1PasswordExtension;
 			sourceTree = "<group>";
 		};
 		9A4145C0EF0C213070A304919D7A9EC4 /* sqlite3 */ = {
 			isa = PBXGroup;
 			children = (
-				DCECFC555D309B44EB78B1BD42D417EB /* common */,
+				8068114C16ED4AD469747BD8CBC5A72B /* common */,
 				58E077846494389F099DB6DD28574088 /* Support Files */,
 			);
+			name = sqlite3;
 			path = sqlite3;
 			sourceTree = "<group>";
 		};
@@ -572,16 +585,16 @@
 		B9FCC4AB46B7038AEB8ECCBFC825B5E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9EC130A6A8C01867E1D60BA14CE7E10 /* FMDB.framework */,
-				7CDFB64E4C79DAD2FD42A79E06501C48 /* OnePasswordExtension.framework */,
-				DE134FFE9E99F48C4AD3003224A06E06 /* OnePasswordExtensionResources.bundle */,
-				C1E8F0F3B7428CFB86ADB6B4E58A7E88 /* Pods_AlliCrab.framework */,
-				6F41F427790EC8312B338BD4B6979DE7 /* Pods_AlliCrabUITests.framework */,
-				13865E588310DB3516DE1952BE6E2EFF /* Pods_WaniKaniKit.framework */,
-				93493A33043B5BB3784C41F984117526 /* Pods_WaniKaniKitTests.framework */,
-				874944E1E0B0412A1E3766CB096D9987 /* Pods_WaniKaniStudyQueueWidget.framework */,
-				6812606B20E7EC659D94E74EE619E37E /* SimulatorStatusMagic.framework */,
-				484A488A81406E331FEE48827CB426FF /* sqlite3.framework */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */,
+				AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */,
+				2B8C1ED275BCEE0AB97805809867586C /* Pods_AlliCrab.framework */,
+				F2A104DB34EE9B6E1955A7EEF714A9A0 /* Pods_AlliCrabUITests.framework */,
+				5198952392F955B8435817C261905E6C /* Pods_WaniKaniKit.framework */,
+				B6D164C60F4D93D2F8A502013EAFA4C2 /* Pods_WaniKaniKitTests.framework */,
+				267EAC59542B3DCA37815E086A02C12B /* Pods_WaniKaniStudyQueueWidget.framework */,
+				A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */,
+				B4507A8AA0AD81E8DFC98020268EFC72 /* sqlite3.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -635,16 +648,6 @@
 			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		DCECFC555D309B44EB78B1BD42D417EB /* common */ = {
-			isa = PBXGroup;
-			children = (
-				0F611130F96FB2DD362DFCA35D29556E /* sqlite3.c */,
-				EF3FBC16018B37624F79F4D208F7237B /* sqlite3.h */,
-				AE53153CB4A75F350EED99BE9DFF0CA5 /* sqlite3ext.h */,
-			);
-			name = common;
-			sourceTree = "<group>";
-		};
 		E85329B571A06FB92AB6BA61C82E5A08 /* SimulatorStatusMagic */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,6 +672,7 @@
 				A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */,
 				7C8B87095B56A78E681B10DD4A352FE8 /* Support Files */,
 			);
+			name = SimulatorStatusMagic;
 			path = SimulatorStatusMagic;
 			sourceTree = "<group>";
 		};
@@ -692,94 +696,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B9E39A1CAAF482540ABFE90FFFDD249 /* Headers */ = {
+		16AC371D45F965F3D28EAB46BA135E05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0AABDC715F8BA209F1F6445AFFE876 /* Pods-AlliCrab-umbrella.h in Headers */,
+				64976DF33414B626E7FACDEE37F996CA /* Pods-AlliCrab-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35997DD8872BE5FEC565884330EAB846 /* Headers */ = {
+		1980815E4A4445248FE9207906FCE7E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1489D9551561846435F9E21614FAF66 /* FMDatabase.h in Headers */,
-				FC8B352F05D36A6A9DF66ADC8DA9C9DA /* FMDatabaseAdditions.h in Headers */,
-				56A9677BAD2F7E11BEB487A7EFBD8BDD /* FMDatabasePool.h in Headers */,
-				C5E2DB9C0B5A43CCA5419D232169587E /* FMDatabaseQueue.h in Headers */,
-				DCDCCB229AB0D708AC74730D54883AD2 /* FMDB-umbrella.h in Headers */,
-				597FF072B00A40856E438AE24596033C /* FMDB.h in Headers */,
-				6FF78BE22F1A4E53DEEB5ADAF692E6CF /* FMResultSet.h in Headers */,
+				2CC75675162B28BE3058B2A1A34F3D94 /* Pods-WaniKaniKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6653CB3AA7F08A39A8F13F7AD1D6DF12 /* Headers */ = {
+		19E2517856FB40795FA13FC8DB2CDAAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90573686CA4F5C1E1288733323D045A0 /* sqlite3-umbrella.h in Headers */,
-				D7492848E99FD931D96FBFE5DB4B0CE2 /* sqlite3.h in Headers */,
-				DC6E1AC16B5B7024795CBCC077F459C3 /* sqlite3ext.h in Headers */,
+				F54A2CE971D75256D70105DD720C0CFB /* 1PasswordExtension-umbrella.h in Headers */,
+				D56F39D9A27992DF0CF074A30CA30F3E /* OnePasswordExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6789124EC98FE1A3BF6D297666C2F38E /* Headers */ = {
+		2C3D23F7D5E072D8E2023ADAE373879E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7FEC06626A3ED97284519030645DB39 /* SDStatusBarManager.h in Headers */,
-				1D713759C5B1430E9E6EEA6B8B714682 /* SDStatusBarOverrider.h in Headers */,
-				9665DE80AA226626C962626370D269CB /* SDStatusBarOverriderPost10_0.h in Headers */,
-				EF54A91B53761F678D3FAA59FDDA3D9A /* SDStatusBarOverriderPost10_3.h in Headers */,
-				F29A51660489396C0803454198D4A2BD /* SDStatusBarOverriderPost11_0.h in Headers */,
-				6B605AB27D44CD053268C714A8CE3CDF /* SDStatusBarOverriderPost12_0.h in Headers */,
-				97CE722AA4BC4DB8F0EB7E1261541947 /* SDStatusBarOverriderPost8_3.h in Headers */,
-				51CD34C067F889F289DAE82A76E2F12E /* SDStatusBarOverriderPost9_0.h in Headers */,
-				906666AD04041D056257504C5B526D5F /* SDStatusBarOverriderPost9_3.h in Headers */,
-				1115F290A38467BA783AF30E4F98F64D /* SDStatusBarOverriderPre8_3.h in Headers */,
-				43A7518C379811BD0DA2B6FCB7C51113 /* SimulatorStatusMagic-umbrella.h in Headers */,
+				2A71C61DFDFC707E73B5209E527676AD /* FMDatabase.h in Headers */,
+				139E3AA8CF1CB0CC8BAA4D580EE8ECD7 /* FMDatabaseAdditions.h in Headers */,
+				1606BB9F6180524E8E13F62530D8ED9F /* FMDatabasePool.h in Headers */,
+				58239C1B8735DBF0D8BBB07B9D4E7C2E /* FMDatabaseQueue.h in Headers */,
+				B6CC9FA52F8DAE2033ADF72515E8BECA /* FMDB-umbrella.h in Headers */,
+				3BBD15779261DA16AC4CCD1702948FFA /* FMDB.h in Headers */,
+				D0A92D208F1F65332C364703C128E9A7 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A2FC0194317455FE9A35529DD40732B /* Headers */ = {
+		A233810F9D59A7F04F4FC24622625E9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79D8B72B353FA983A5CB737F8B5CD6B /* 1PasswordExtension-umbrella.h in Headers */,
-				78705FF8B9DD9927838BF04065F25839 /* OnePasswordExtension.h in Headers */,
+				BCA9204CDE8649125FC14C4ECAD78FD1 /* Pods-WaniKaniStudyQueueWidget-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A8A8D8E9AD101973609C1A5A8821C9B /* Headers */ = {
+		AD2E8D6CDA562629713C75961E9D50CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E15517BC75854499F923B34AD131F5D /* Pods-WaniKaniStudyQueueWidget-umbrella.h in Headers */,
+				64AB27EA36A0890A92B66A5163F4BB2D /* Pods-AlliCrabUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0BDA170BA4416D95BB517C6625B5BE0 /* Headers */ = {
+		B07222CB14B83444B1846440A999A3BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE16725F91C85B0E10C0293BAAA5982 /* Pods-WaniKaniKit-umbrella.h in Headers */,
+				CF8BF1B301A42429F18D977F3384AF6A /* sqlite3-umbrella.h in Headers */,
+				54D070A8BD62D881AE8E534F76D8F7CF /* sqlite3.h in Headers */,
+				E06B3ABE50445678A9533B315870D06C /* sqlite3ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6D6B89EB6743EADC030B011F435E891 /* Headers */ = {
+		D7418BDD455FAA129DDCF52EAB80B9A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E2FBBEAC6C78A52F1F0CD8D3EAB45F /* Pods-WaniKaniKitTests-umbrella.h in Headers */,
+				D99929870799AB9ECD4EB1B621D7D3D6 /* Pods-WaniKaniKitTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF98229EE8ABE4666313267F6961C55B /* Headers */ = {
+		EFAA4D84328FA49E6348A6AFDF0EE3A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407DA38BA24A68606EC093310F908FCE /* Pods-AlliCrabUITests-umbrella.h in Headers */,
+				28F91404622D0BEC773C7596200B44B8 /* SDStatusBarManager.h in Headers */,
+				34EFD6612FD00F3A6062229F0ECE9B4B /* SDStatusBarOverrider.h in Headers */,
+				45563D27912ABDD64420A45B4FFC06BF /* SDStatusBarOverriderPost10_0.h in Headers */,
+				55D6FCC7887F0D51A76CD5044533DB7B /* SDStatusBarOverriderPost10_3.h in Headers */,
+				A24A82AB32234C06C898A5E118DE8FCA /* SDStatusBarOverriderPost11_0.h in Headers */,
+				7CEA008BF1830981DF2662A092327C2A /* SDStatusBarOverriderPost12_0.h in Headers */,
+				40C3EB9A6EF67ED4F5F71BD61218F965 /* SDStatusBarOverriderPost8_3.h in Headers */,
+				97B2A80D138941CF609872D03D5591A0 /* SDStatusBarOverriderPost9_0.h in Headers */,
+				A1F6CD006BB15B1B2E188E267B5C6C53 /* SDStatusBarOverriderPost9_3.h in Headers */,
+				DBD965D369E908BCB3DBF80FBC2F11D4 /* SDStatusBarOverriderPre8_3.h in Headers */,
+				44FC0EF797DDA47295FE11FB7904BA8B /* SimulatorStatusMagic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,31 +792,31 @@
 /* Begin PBXNativeTarget section */
 		4FE08E9D7C180B736E43CCF2553D60B7 /* Pods-WaniKaniKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F70AEA105443010862D137034FA28F5 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKit" */;
+			buildConfigurationList = ADDEA218387806448432503B18D71900 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKit" */;
 			buildPhases = (
-				A0BDA170BA4416D95BB517C6625B5BE0 /* Headers */,
-				EEB7CDD1D56AF4E72658CF54212B4E42 /* Sources */,
-				351D0361C2766E0553C0D4165CD723B8 /* Frameworks */,
-				FBCD2353C36A93D84BBF4BEF940E4E78 /* Resources */,
+				1980815E4A4445248FE9207906FCE7E2 /* Headers */,
+				C4050B44444DA36865D383B39760E7BC /* Sources */,
+				20C40C8B1F70069B0DB67DB39F0312ED /* Frameworks */,
+				CB30A6B3A6BEDE586E3BB8C9E0C182F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8127CDBD6EA3D58E0FCD41B477BCB730 /* PBXTargetDependency */,
-				403E60813E9535FD0EE27F9B6B1B74BB /* PBXTargetDependency */,
+				81F6C45977FA1E5BB95DBF6B6F395867 /* PBXTargetDependency */,
+				E61D893B670F430721464304637829D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-WaniKaniKit";
 			productName = "Pods-WaniKaniKit";
-			productReference = 13865E588310DB3516DE1952BE6E2EFF /* Pods_WaniKaniKit.framework */;
+			productReference = 5198952392F955B8435817C261905E6C /* Pods_WaniKaniKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6208D25DC48703C16058EB76004A61D6 /* 1PasswordExtension-OnePasswordExtensionResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE9FD9973C16AB8497467654BE62CC8C /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */;
+			buildConfigurationList = 4A6057B7123B8D289DA21224E0E1CAA3 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */;
 			buildPhases = (
-				BC7C8678466278C9B8CBEC6CDB41317E /* Sources */,
-				A84AF7A73F290E8D351F11535D70B339 /* Frameworks */,
-				EFB0F6271B67A5C2E983B11210C66A99 /* Resources */,
+				8A17B9B5BAB38947920100342C00EF3B /* Sources */,
+				E2A536561F3DB10EE8DDAAC8D0EACACA /* Frameworks */,
+				E0A7CDC0AD52513DF58C9D5E296E54A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -820,38 +824,38 @@
 			);
 			name = "1PasswordExtension-OnePasswordExtensionResources";
 			productName = "1PasswordExtension-OnePasswordExtensionResources";
-			productReference = DE134FFE9E99F48C4AD3003224A06E06 /* OnePasswordExtensionResources.bundle */;
+			productReference = AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		735FC73097A620F59E27AE659D08E0AB /* Pods-AlliCrab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DA01BED7A5D9707765FDD056F029EE7 /* Build configuration list for PBXNativeTarget "Pods-AlliCrab" */;
+			buildConfigurationList = C7C4C3A72C0EB3EFF9ED47EBEEB4D905 /* Build configuration list for PBXNativeTarget "Pods-AlliCrab" */;
 			buildPhases = (
-				0B9E39A1CAAF482540ABFE90FFFDD249 /* Headers */,
-				2646EFD46053B843B23BF31366409BB4 /* Sources */,
-				2426F7404B92DB9AED408252F8A84A39 /* Frameworks */,
-				6582C6E28FF779E972360093A767C5D0 /* Resources */,
+				16AC371D45F965F3D28EAB46BA135E05 /* Headers */,
+				7C986678FE8BBD0317A7F5562D09186B /* Sources */,
+				C6205A861EE81C6E84EEF32922DC11B6 /* Frameworks */,
+				7F57D5A49C2340B27BF9FC202F0097E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE8CE10ACC56AFFA0DF8624219C79431 /* PBXTargetDependency */,
-				67CF393757A7A70270ADA64113B9D5C0 /* PBXTargetDependency */,
-				99E6B325B62ED09350D00DA010176871 /* PBXTargetDependency */,
+				969935CEADB631A581C2C3BCD84F03A8 /* PBXTargetDependency */,
+				9ABC9BBE29362E6B6A2BDAC9265B429D /* PBXTargetDependency */,
+				18F49170D61108D766813A0C68E410F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-AlliCrab";
 			productName = "Pods-AlliCrab";
-			productReference = C1E8F0F3B7428CFB86ADB6B4E58A7E88 /* Pods_AlliCrab.framework */;
+			productReference = 2B8C1ED275BCEE0AB97805809867586C /* Pods_AlliCrab.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7578477CA77D98D8282C395822C4A93C /* sqlite3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23083BAEC58B161CA81BA7A334A29206 /* Build configuration list for PBXNativeTarget "sqlite3" */;
+			buildConfigurationList = 563F92D368458D1311AF0AFCC6F5FDED /* Build configuration list for PBXNativeTarget "sqlite3" */;
 			buildPhases = (
-				6653CB3AA7F08A39A8F13F7AD1D6DF12 /* Headers */,
-				7D0702EC2C6E4DD66C4BCB723E04CAB7 /* Sources */,
-				0986FF2EC298EA9BC98AC95BD6249279 /* Frameworks */,
-				8AD307AF58176252FA94DB15746B1016 /* Resources */,
+				B07222CB14B83444B1846440A999A3BF /* Headers */,
+				D4DACC56081DED02B88C51392D503DBD /* Sources */,
+				97888CE24F42DF1D436EEF10EF6BEB20 /* Frameworks */,
+				2A1E80F2DBDA4B20C289CA0FAB427526 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -859,95 +863,95 @@
 			);
 			name = sqlite3;
 			productName = sqlite3;
-			productReference = 484A488A81406E331FEE48827CB426FF /* sqlite3.framework */;
+			productReference = B4507A8AA0AD81E8DFC98020268EFC72 /* sqlite3.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7591794B0EEDAA1078B0EABFFC62A511 /* Pods-WaniKaniKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B9F0DB3C61F01A49C52BC7B16D12520 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKitTests" */;
+			buildConfigurationList = FD7C11A57EE4F78D720934419375B8CB /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKitTests" */;
 			buildPhases = (
-				E6D6B89EB6743EADC030B011F435E891 /* Headers */,
-				E8F6206CF5046CB16EF02E52A9E39BA0 /* Sources */,
-				AC270BF372E241816E27F0D028C05FC0 /* Frameworks */,
-				DEC337451B51D7D11990A8F2D803BD7C /* Resources */,
+				D7418BDD455FAA129DDCF52EAB80B9A0 /* Headers */,
+				65E3A3E555D796467F178F0896ADB11B /* Sources */,
+				C6AB40C1B8B1105B9B434BEF5DB720A8 /* Frameworks */,
+				423B77EA1D3BEAA8F77C91FFBAF400D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24830E83D46B55EB0CAE0CA544ED35AD /* PBXTargetDependency */,
-				7427FBD1B4E87B852C558E2000542B59 /* PBXTargetDependency */,
+				1CC8E5C1A9CE76373E492F7C6B5C3365 /* PBXTargetDependency */,
+				57BCFB6A30E0DD4033C14BCB5F28768B /* PBXTargetDependency */,
 			);
 			name = "Pods-WaniKaniKitTests";
 			productName = "Pods-WaniKaniKitTests";
-			productReference = 93493A33043B5BB3784C41F984117526 /* Pods_WaniKaniKitTests.framework */;
+			productReference = B6D164C60F4D93D2F8A502013EAFA4C2 /* Pods_WaniKaniKitTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA09333EBDBBC9C360E3E0D69DB8083 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildConfigurationList = 9C99B1AB5EFC2EB35F426265AC4FAAFA /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				35997DD8872BE5FEC565884330EAB846 /* Headers */,
-				9D6DD1EAAE45F631518EED8D1235FE09 /* Sources */,
-				DE3A9CBF68EA0F83C4D27D4464F5809B /* Frameworks */,
-				D3667D64DC21000032473BDA23CEB7DA /* Resources */,
+				2C3D23F7D5E072D8E2023ADAE373879E /* Headers */,
+				C911FD7DF22419CC49DC9F8749D08D1B /* Sources */,
+				BDFF44CD54E0602B466BB677D70AAADB /* Frameworks */,
+				0D0189B444E96925146099323352D159 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				98885E3A911D658E53940FB8929BA294 /* PBXTargetDependency */,
+				F0C77E0D73A1602CFF280E034D4C8814 /* PBXTargetDependency */,
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = B9EC130A6A8C01867E1D60BA14CE7E10 /* FMDB.framework */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E96A03F53D8E4CEA5FD2B944A11C73C6 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */;
+			buildConfigurationList = 01A33A61DC910D300551D630EDED998F /* Build configuration list for PBXNativeTarget "1PasswordExtension" */;
 			buildPhases = (
-				6A2FC0194317455FE9A35529DD40732B /* Headers */,
-				53813626FD15D0A83C62C04966EB444A /* Sources */,
-				D5BF92E5F5801DA9107CFB6D654C62B3 /* Frameworks */,
-				EE34208EE43224876C2ABCB7724965BE /* Resources */,
+				19E2517856FB40795FA13FC8DB2CDAAD /* Headers */,
+				B510E25E7E8E1261C79CE4D3D52EF998 /* Sources */,
+				02E2DE958EAB6E12B5F628036A2EB6F3 /* Frameworks */,
+				A7BE18CBB9936FD0320269F8C0B728CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18E5596781B1D7F7E6E817A5A4E90CAE /* PBXTargetDependency */,
+				876AFB234A369D6BDA6B4269C21DDEBB /* PBXTargetDependency */,
 			);
 			name = 1PasswordExtension;
 			productName = 1PasswordExtension;
-			productReference = 7CDFB64E4C79DAD2FD42A79E06501C48 /* OnePasswordExtension.framework */;
+			productReference = 56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9145DE372721E44157ED5B56D3DFF5EA /* Pods-WaniKaniStudyQueueWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63566F056B64384F852F1E05F26BDF3F /* Build configuration list for PBXNativeTarget "Pods-WaniKaniStudyQueueWidget" */;
+			buildConfigurationList = 0C45D995F9A96849FE35607F12F9CE77 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniStudyQueueWidget" */;
 			buildPhases = (
-				6A8A8D8E9AD101973609C1A5A8821C9B /* Headers */,
-				C174C5BDD44B516D98D98DCE6E41E582 /* Sources */,
-				C2370A824453245BE6C192C5904E88DC /* Frameworks */,
-				45425D3FB08F801BB4C1DDB2D6906590 /* Resources */,
+				A233810F9D59A7F04F4FC24622625E9F /* Headers */,
+				96DE76040CF34A249838C44EE63E747C /* Sources */,
+				68025FD28F276FC0A94DA5129A47541B /* Frameworks */,
+				CAA835F14B8AFCFB0696494F8FCB4F57 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4241325E5F56E60D7BC96605CCC25FC8 /* PBXTargetDependency */,
-				934BB84D3C11B2CC9AA1C5AE12CAAF1C /* PBXTargetDependency */,
+				8DC5B5ABF33740844E2BDF978B3BE541 /* PBXTargetDependency */,
+				3541654F93CB26402F8B3097C60FB9CD /* PBXTargetDependency */,
 			);
 			name = "Pods-WaniKaniStudyQueueWidget";
 			productName = "Pods-WaniKaniStudyQueueWidget";
-			productReference = 874944E1E0B0412A1E3766CB096D9987 /* Pods_WaniKaniStudyQueueWidget.framework */;
+			productReference = 267EAC59542B3DCA37815E086A02C12B /* Pods_WaniKaniStudyQueueWidget.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEA691AF392E6CC2815A84673985DE96 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */;
+			buildConfigurationList = DD338E7F1D888ED1A834F363866251DB /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */;
 			buildPhases = (
-				6789124EC98FE1A3BF6D297666C2F38E /* Headers */,
-				2B7B170CC0A335B89CCEB44D4F56BCAB /* Sources */,
-				065D4A652050190D33CECCC230C6B42D /* Frameworks */,
-				4DE7210CA7C855F3A33650D26260A155 /* Resources */,
+				EFAA4D84328FA49E6348A6AFDF0EE3A1 /* Headers */,
+				321C67A7E363DCA4C888AEA49112DA6C /* Sources */,
+				7F632C4A70249FE083BBDB95C71CE3C5 /* Frameworks */,
+				C1BD2C633B1A35FAE781F32AB1192547 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -955,28 +959,28 @@
 			);
 			name = SimulatorStatusMagic;
 			productName = SimulatorStatusMagic;
-			productReference = 6812606B20E7EC659D94E74EE619E37E /* SimulatorStatusMagic.framework */;
+			productReference = A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		99EB606026A6449AE3C72AD6F55167C8 /* Pods-AlliCrabUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FADE8393C038C74A6E9136737B30A53 /* Build configuration list for PBXNativeTarget "Pods-AlliCrabUITests" */;
+			buildConfigurationList = F4794789699B9EE43BD2D8744E832C57 /* Build configuration list for PBXNativeTarget "Pods-AlliCrabUITests" */;
 			buildPhases = (
-				FF98229EE8ABE4666313267F6961C55B /* Headers */,
-				E4ACAFC616AF38D0622D1ED1437DC317 /* Sources */,
-				33B19A00F9CE2EE9D66126D62D9663A1 /* Frameworks */,
-				E833302834E8F8E78520909E152C24DD /* Resources */,
+				AD2E8D6CDA562629713C75961E9D50CD /* Headers */,
+				F8CD8F84FD601FF983F5B00EA8A03514 /* Sources */,
+				8636593351A4827A515A8C5118D1DCD8 /* Frameworks */,
+				18B26FE993FB50932EC472B33986DAF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00B141E838147A88917BFBA4B5C17C62 /* PBXTargetDependency */,
-				048947EDBA8057C132FC6FCEA3BDE609 /* PBXTargetDependency */,
-				DC496D33A1360A214478CA962C165614 /* PBXTargetDependency */,
+				2783C414177BE73D02FB10C7757F2461 /* PBXTargetDependency */,
+				D0B7F8C28A01B23C0E1317C94F013628 /* PBXTargetDependency */,
+				4E573600AB6D27387DA6B19B1A6CC7D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-AlliCrabUITests";
 			productName = "Pods-AlliCrabUITests";
-			productReference = 6F41F427790EC8312B338BD4B6979DE7 /* Pods_AlliCrabUITests.framework */;
+			productReference = F2A104DB34EE9B6E1955A7EEF714A9A0 /* Pods_AlliCrabUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -985,8 +989,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1130;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -1016,303 +1020,272 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45425D3FB08F801BB4C1DDB2D6906590 /* Resources */ = {
+		0D0189B444E96925146099323352D159 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DE7210CA7C855F3A33650D26260A155 /* Resources */ = {
+		18B26FE993FB50932EC472B33986DAF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6582C6E28FF779E972360093A767C5D0 /* Resources */ = {
+		2A1E80F2DBDA4B20C289CA0FAB427526 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AD307AF58176252FA94DB15746B1016 /* Resources */ = {
+		423B77EA1D3BEAA8F77C91FFBAF400D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3667D64DC21000032473BDA23CEB7DA /* Resources */ = {
+		7F57D5A49C2340B27BF9FC202F0097E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEC337451B51D7D11990A8F2D803BD7C /* Resources */ = {
+		A7BE18CBB9936FD0320269F8C0B728CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70F5B033382339F8FC9D33860A5C04B /* OnePasswordExtensionResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD2C633B1A35FAE781F32AB1192547 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E833302834E8F8E78520909E152C24DD /* Resources */ = {
+		CAA835F14B8AFCFB0696494F8FCB4F57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE34208EE43224876C2ABCB7724965BE /* Resources */ = {
+		CB30A6B3A6BEDE586E3BB8C9E0C182F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED511D2F505B779355F056B6321E622F /* OnePasswordExtensionResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFB0F6271B67A5C2E983B11210C66A99 /* Resources */ = {
+		E0A7CDC0AD52513DF58C9D5E296E54A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17584A4EF58F748634FDE31BC41CB15D /* 1Password.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBCD2353C36A93D84BBF4BEF940E4E78 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B0DB5EBD7637B005009C1E0EA68FA14F /* 1Password.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2646EFD46053B843B23BF31366409BB4 /* Sources */ = {
+		321C67A7E363DCA4C888AEA49112DA6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50086F4DF15D7C12E098080DDF40FFE5 /* Pods-AlliCrab-dummy.m in Sources */,
+				158D16F3E9D56994626E111274244153 /* SDStatusBarManager.m in Sources */,
+				5CB1F83A6DFE5B26EF1C6D47A2B7279C /* SDStatusBarOverriderPost10_0.m in Sources */,
+				FF0FFDEF3BED44CEE43639883104251E /* SDStatusBarOverriderPost10_3.m in Sources */,
+				684E9A8B04E6D89AB72D01D5076EFBCC /* SDStatusBarOverriderPost11_0.m in Sources */,
+				FCC7E94FC0121CA4A6E7A1553813304B /* SDStatusBarOverriderPost12_0.m in Sources */,
+				D582507665AA344724DF19F095E144A7 /* SDStatusBarOverriderPost8_3.m in Sources */,
+				FD560C3760CB4905FEBFAE6D0E09EB89 /* SDStatusBarOverriderPost9_0.m in Sources */,
+				8F5D7D1DA9AD411E99DA3A21977CD37B /* SDStatusBarOverriderPost9_3.m in Sources */,
+				EF8D714151459E727586B34C7397300B /* SDStatusBarOverriderPre8_3.m in Sources */,
+				09AC354D7180A0BD8BE2044AF3222249 /* SimulatorStatusMagic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B7B170CC0A335B89CCEB44D4F56BCAB /* Sources */ = {
+		65E3A3E555D796467F178F0896ADB11B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E7967B0F074829D53CEF874221E526 /* SDStatusBarManager.m in Sources */,
-				136218B2631175B71D93FAC55519FC54 /* SDStatusBarOverriderPost10_0.m in Sources */,
-				A3CB3901260FDC9C2D35B46402ABD4A2 /* SDStatusBarOverriderPost10_3.m in Sources */,
-				AC2CF246B835C8D3E73CF96458798B40 /* SDStatusBarOverriderPost11_0.m in Sources */,
-				9BAB83CC37152031C5B3B4AF90D5D784 /* SDStatusBarOverriderPost12_0.m in Sources */,
-				085812CD32A833235A826765DFEA5A38 /* SDStatusBarOverriderPost8_3.m in Sources */,
-				1057F53C17DF752472A1BA5E133D33DA /* SDStatusBarOverriderPost9_0.m in Sources */,
-				BC2706D299D59FA95CE5EEBE7EA941BF /* SDStatusBarOverriderPost9_3.m in Sources */,
-				F50DD84EE59EEB380CA9F64E1D88EE5D /* SDStatusBarOverriderPre8_3.m in Sources */,
-				0F4036489CE432B18A40B0379AB5D36D /* SimulatorStatusMagic-dummy.m in Sources */,
+				B1F3432E844E961EF24D663433EDE247 /* Pods-WaniKaniKitTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53813626FD15D0A83C62C04966EB444A /* Sources */ = {
+		7C986678FE8BBD0317A7F5562D09186B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307B70B6F58ED5F4CB2CB23840712509 /* 1PasswordExtension-dummy.m in Sources */,
-				46DB1EB90693AEE7699ADCDB7B517A8E /* OnePasswordExtension.m in Sources */,
+				D8A87D24F5A85B7AB67ADC0FAF37E722 /* Pods-AlliCrab-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D0702EC2C6E4DD66C4BCB723E04CAB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43E55F4F4881756272AA1EB5B903DA79 /* sqlite3-dummy.m in Sources */,
-				CA893647F9BCAC67DA61831C01B8B530 /* sqlite3.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D6DD1EAAE45F631518EED8D1235FE09 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0737940FBE76852CA25279555FA9224A /* FMDatabase.m in Sources */,
-				0D9F8133ADFA4F0CE6FA0D0956D58D85 /* FMDatabaseAdditions.m in Sources */,
-				C6184B380255DCE803E84154540B45E7 /* FMDatabasePool.m in Sources */,
-				23829FF9294D5A89C5E1F01045BA7374 /* FMDatabaseQueue.m in Sources */,
-				C0A6B190B2A215BF7474E74412835DF1 /* FMDB-dummy.m in Sources */,
-				62159CE76089E849EF785F00728D43B6 /* FMResultSet.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC7C8678466278C9B8CBEC6CDB41317E /* Sources */ = {
+		8A17B9B5BAB38947920100342C00EF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C174C5BDD44B516D98D98DCE6E41E582 /* Sources */ = {
+		96DE76040CF34A249838C44EE63E747C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830AD6BF899FEA60EEA926C552A944CF /* Pods-WaniKaniStudyQueueWidget-dummy.m in Sources */,
+				D7D3F0C1BE02E0D66F7CA116C9C91306 /* Pods-WaniKaniStudyQueueWidget-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4ACAFC616AF38D0622D1ED1437DC317 /* Sources */ = {
+		B510E25E7E8E1261C79CE4D3D52EF998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF3CF8896AA4B7273DEF11B3D40DB18 /* Pods-AlliCrabUITests-dummy.m in Sources */,
+				F74B8EA5F69C5A46702B4771444200DB /* 1PasswordExtension-dummy.m in Sources */,
+				A1AF629C67E124BE4863A46CEDB1BD1F /* OnePasswordExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8F6206CF5046CB16EF02E52A9E39BA0 /* Sources */ = {
+		C4050B44444DA36865D383B39760E7BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6698319D6E2ACE8337CCB6D2F4EDC2C /* Pods-WaniKaniKitTests-dummy.m in Sources */,
+				2BA355FE4A976BEFD6D20D581A604FC5 /* Pods-WaniKaniKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEB7CDD1D56AF4E72658CF54212B4E42 /* Sources */ = {
+		C911FD7DF22419CC49DC9F8749D08D1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD46FB3C8B4FD6CE47FA5FA36084FB0 /* Pods-WaniKaniKit-dummy.m in Sources */,
+				E83AB82A6CD341EF73DD8B9720930EF3 /* FMDatabase.m in Sources */,
+				ADC66B8B539820508ECE477B1314F310 /* FMDatabaseAdditions.m in Sources */,
+				FA6AE4D3EEB07E4BD3D81A9DAA78C9B9 /* FMDatabasePool.m in Sources */,
+				D087C3D5200A033A4AE81CEDF2E12387 /* FMDatabaseQueue.m in Sources */,
+				A19321291B5176B6625078CEC5A47870 /* FMDB-dummy.m in Sources */,
+				17198E7EFC208B837AB0441729718DD8 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DACC56081DED02B88C51392D503DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B126DE35BCCE793C8C8C8D7CA784BF66 /* sqlite3-dummy.m in Sources */,
+				DBF9288E37DE71075329B9052B809CCF /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD8F84FD601FF983F5B00EA8A03514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E12FA9CF71F062230A70859D18D419 /* Pods-AlliCrabUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00B141E838147A88917BFBA4B5C17C62 /* PBXTargetDependency */ = {
+		18F49170D61108D766813A0C68E410F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
+			targetProxy = 43FEC9F992AAA3898B76C6CF04B43C28 /* PBXContainerItemProxy */;
+		};
+		1CC8E5C1A9CE76373E492F7C6B5C3365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 2FBE35DC78CEBD6D425538A20767966A /* PBXContainerItemProxy */;
+			targetProxy = 4E9F209473A316105322B3B09D9501B9 /* PBXContainerItemProxy */;
 		};
-		048947EDBA8057C132FC6FCEA3BDE609 /* PBXTargetDependency */ = {
+		2783C414177BE73D02FB10C7757F2461 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SimulatorStatusMagic;
-			target = 95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */;
-			targetProxy = E933F59A3293D765DC194053DFFC444D /* PBXContainerItemProxy */;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 09B1B06D0AC37E413FA21B8ABEFFCAC7 /* PBXContainerItemProxy */;
 		};
-		18E5596781B1D7F7E6E817A5A4E90CAE /* PBXTargetDependency */ = {
+		3541654F93CB26402F8B3097C60FB9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
+			targetProxy = 17424B77C55C9479E3575DA573EAF77D /* PBXContainerItemProxy */;
+		};
+		4E573600AB6D27387DA6B19B1A6CC7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
+			targetProxy = A9BC9AA4B20B934026AFF8BA4FAE2AC4 /* PBXContainerItemProxy */;
+		};
+		57BCFB6A30E0DD4033C14BCB5F28768B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
+			targetProxy = 764048A5C6FC097C56A86E5304CF4D8F /* PBXContainerItemProxy */;
+		};
+		81F6C45977FA1E5BB95DBF6B6F395867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 700B012B1D36F34BCBD15F2B0D2880CF /* PBXContainerItemProxy */;
+		};
+		876AFB234A369D6BDA6B4269C21DDEBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "1PasswordExtension-OnePasswordExtensionResources";
 			target = 6208D25DC48703C16058EB76004A61D6 /* 1PasswordExtension-OnePasswordExtensionResources */;
-			targetProxy = D274551A343B041653F5E45F5AFD9F8F /* PBXContainerItemProxy */;
+			targetProxy = 9150AD2514D058CBE473BC139C0CCE08 /* PBXContainerItemProxy */;
 		};
-		24830E83D46B55EB0CAE0CA544ED35AD /* PBXTargetDependency */ = {
+		8DC5B5ABF33740844E2BDF978B3BE541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 916EC8103377431E88446F2438A810EA /* PBXContainerItemProxy */;
+			targetProxy = 0DCEBC3228883E2AD1B7B6343F290E6A /* PBXContainerItemProxy */;
 		};
-		403E60813E9535FD0EE27F9B6B1B74BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite3;
-			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = AA0CB1D9795D583BCD9DD8B8C1C3F5AA /* PBXContainerItemProxy */;
-		};
-		4241325E5F56E60D7BC96605CCC25FC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 32629F952C18D80378DF943186EB71C2 /* PBXContainerItemProxy */;
-		};
-		67CF393757A7A70270ADA64113B9D5C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 6DE7122F4B33B0A40F031565C3177C54 /* PBXContainerItemProxy */;
-		};
-		7427FBD1B4E87B852C558E2000542B59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite3;
-			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = FC3E4A91CD53582B90F68EE8A9A5E5F4 /* PBXContainerItemProxy */;
-		};
-		8127CDBD6EA3D58E0FCD41B477BCB730 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 0AA1331B7E657A2CDC126F880900A2E2 /* PBXContainerItemProxy */;
-		};
-		934BB84D3C11B2CC9AA1C5AE12CAAF1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite3;
-			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = 341B12605B48ADA38ABCFDA5FADB8710 /* PBXContainerItemProxy */;
-		};
-		98885E3A911D658E53940FB8929BA294 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite3;
-			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = C1F6CF0C4BB12C17312EF21C1879FACE /* PBXContainerItemProxy */;
-		};
-		99E6B325B62ED09350D00DA010176871 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite3;
-			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = 3110486772A9ECCE26E651E190F4A5B4 /* PBXContainerItemProxy */;
-		};
-		AE8CE10ACC56AFFA0DF8624219C79431 /* PBXTargetDependency */ = {
+		969935CEADB631A581C2C3BCD84F03A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = 1PasswordExtension;
 			target = 8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */;
-			targetProxy = 89A8480B5824C04AA17DB4BA94D088E5 /* PBXContainerItemProxy */;
+			targetProxy = A60A1E10DB13224C622F4536A281621E /* PBXContainerItemProxy */;
 		};
-		DC496D33A1360A214478CA962C165614 /* PBXTargetDependency */ = {
+		9ABC9BBE29362E6B6A2BDAC9265B429D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 82A72FD5D3F8A23A06EE8A5C0F93FD0A /* PBXContainerItemProxy */;
+		};
+		D0B7F8C28A01B23C0E1317C94F013628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimulatorStatusMagic;
+			target = 95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */;
+			targetProxy = 456D915CF2D75D30777D7DD0EA68AC5F /* PBXContainerItemProxy */;
+		};
+		E61D893B670F430721464304637829D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sqlite3;
 			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
-			targetProxy = BEC806E46C8953792201624CA7DD2196 /* PBXContainerItemProxy */;
+			targetProxy = 13E26FED196BC8866FBFFE5791AC6861 /* PBXContainerItemProxy */;
+		};
+		F0C77E0D73A1602CFF280E034D4C8814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 7578477CA77D98D8282C395822C4A93C /* sqlite3 */;
+			targetProxy = A8CD1DB129635E7598994323A432D045 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09B0B32D65A7C37BA708C413140DFC25 /* Debug */ = {
+		0E84082EC42E9CEE6F42C3561E74C75E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic.modulemap";
-				PRODUCT_MODULE_NAME = SimulatorStatusMagic;
-				PRODUCT_NAME = SimulatorStatusMagic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		15114257ABEF6DED264FA045E4D16E0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBEBC4BEC6206C0F80510922B5C852C9 /* Pods-WaniKaniKit.debug.xcconfig */;
+			baseConfigurationReference = 938771FB0EC1F70C5EF8C2A22288B330 /* Pods-AlliCrabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1323,12 +1296,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WaniKaniKit/Pods-WaniKaniKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaniKaniKit/Pods-WaniKaniKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1337,17 +1310,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		247B6DE7075CA6799ABC027D024DF2CD /* Release */ = {
+		164BCB53F6132C3F349DFE99722D5B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B1EEF9C803F4D3A3B8B3379097DAC72 /* Pods-WaniKaniStudyQueueWidget.release.xcconfig */;
+			baseConfigurationReference = 731CA810FF6E5E6F36203A2C31E7E462 /* Pods-WaniKaniStudyQueueWidget.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1372,11 +1346,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1431,18 +1404,18 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		26149E510BD97F337C857E6BBD6E93B7 /* Release */ = {
+		33EA153119E7726BFC382B67CED47826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C503CCF951DDB6653298DBEE6EFBEAF /* Pods-AlliCrab.release.xcconfig */;
+			baseConfigurationReference = 529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1452,117 +1425,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2E3F490057226A39C0515DD48A1B07BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 938771FB0EC1F70C5EF8C2A22288B330 /* Pods-AlliCrabUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		366D3C3B4C721864E513D9387279760B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEF8D37F128CFCA8DA11C1EBD8053C17 /* Pods-WaniKaniKitTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WaniKaniKitTests/Pods-WaniKaniKitTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaniKaniKitTests/Pods-WaniKaniKitTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		46BD38A41965F3769E71099F4818EA0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
-				PRODUCT_MODULE_NAME = OnePasswordExtension;
-				PRODUCT_NAME = OnePasswordExtension;
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1573,12 +1443,12 @@
 			};
 			name = Debug;
 		};
-		4B6395E1A0B02110C3E9F5888160D5A8 /* Release */ = {
+		4DCBCD00BAB16F91E2617A3A28E37DE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76D51FB2D9EBA279DF0C216EEF6669B7 /* Pods-WaniKaniKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1609,11 +1479,13 @@
 			};
 			name = Release;
 		};
-		64CFF7A0160187E6FD448384D1A8039A /* Debug */ = {
+		546A3CCB41EF21007D33EC432F7A68B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
+			baseConfigurationReference = FEF8D37F128CFCA8DA11C1EBD8053C17 /* Pods-WaniKaniKitTests.release.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1623,30 +1495,49 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sqlite3/sqlite3-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaniKaniKitTests/Pods-WaniKaniKitTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
-				PRODUCT_MODULE_NAME = sqlite3;
-				PRODUCT_NAME = sqlite3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaniKaniKitTests/Pods-WaniKaniKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Release;
+		};
+		5B95C14041B62A21460C7E1878EFE646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
+				IBSC_MODULE = OnePasswordExtension;
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Debug;
 		};
-		6D4A06F39CA536AA3A165E781908D607 /* Debug */ = {
+		6CE0CF205E5B4CF1C093721ABED73C6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 731CA810FF6E5E6F36203A2C31E7E462 /* Pods-WaniKaniStudyQueueWidget.debug.xcconfig */;
+			baseConfigurationReference = 8B1EEF9C803F4D3A3B8B3379097DAC72 /* Pods-WaniKaniStudyQueueWidget.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1671,16 +1562,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6E632C110E5475824CE6CB5F7AB3DD64 /* Release */ = {
+		70DE6F0C99F5DBDA4109625B931D2CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1709,11 +1601,264 @@
 			};
 			name = Release;
 		};
-		6F48E840CED2166882059530C4A6141B /* Debug */ = {
+		7261542F655D5D94B8054FCF486F8026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic.modulemap";
+				PRODUCT_MODULE_NAME = SimulatorStatusMagic;
+				PRODUCT_NAME = SimulatorStatusMagic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A12473BD1E486DFC2322F480C13446D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4C359F74AF8FC64FADE0F28BAADE4D /* Pods-AlliCrabUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BCE8B84C46DCE567ED9DCD0778E8D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sqlite3/sqlite3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
+				PRODUCT_MODULE_NAME = sqlite3;
+				PRODUCT_NAME = sqlite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E801811D06F75905FD06F242FCC30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C503CCF951DDB6653298DBEE6EFBEAF /* Pods-AlliCrab.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FC61B441EE0BBE7C16618D64AE4844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE85C21D06F56F30737683133165A4C5 /* Pods-AlliCrab.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF7392BF2AE6CE7AD1D984BF2224ADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sqlite3/sqlite3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
+				PRODUCT_MODULE_NAME = sqlite3;
+				PRODUCT_NAME = sqlite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B08F07B91E71989C126654B2805616BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				PRODUCT_MODULE_NAME = OnePasswordExtension;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0BA0C09CFB9554013E8F16C6AC37615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
+				IBSC_MODULE = OnePasswordExtension;
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BF1F83247277CD9EE3B956960C30DF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23BD7F2CC16861AB6C335A6C2C3B05BC /* Pods-WaniKaniKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1743,42 +1888,11 @@
 			};
 			name = Debug;
 		};
-		808FD0DD1B833C255D5BE94093DBF88B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_MODULE_NAME = FMDB;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8AD981564F7C424F819350859231DFA7 /* Release */ = {
+		D0888D6BA1EE12FCCFC74A71FC7C713C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1806,137 +1920,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8B3840C0297178F01DDA6DF5CB8BAA8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
-				PRODUCT_MODULE_NAME = OnePasswordExtension;
-				PRODUCT_NAME = OnePasswordExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A9CEF3037B0F2622A796804579D28CBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
-				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = OnePasswordExtensionResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		AA9B67BF0B6504AF9B5DCE47C8CE32EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sqlite3/sqlite3-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
-				PRODUCT_MODULE_NAME = sqlite3;
-				PRODUCT_NAME = sqlite3;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA001FE80945E625DD6F8FEA9E36C90D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
-				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = OnePasswordExtensionResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C7F7A1FDD2458B331475D22E67A312EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B4C359F74AF8FC64FADE0F28BAADE4D /* Pods-AlliCrabUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrabUITests/Pods-AlliCrabUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2002,11 +1985,45 @@
 			};
 			name = Debug;
 		};
-		E9A0331C433F815F0E782750D11A70E1 /* Debug */ = {
+		F66F70BB1E97EE7C277ABF6F1F5D7681 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE85C21D06F56F30737683133165A4C5 /* Pods-AlliCrab.debug.xcconfig */;
+			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				PRODUCT_MODULE_NAME = OnePasswordExtension;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD7397AA6F51422F918CCCAA969DDFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEBC4BEC6206C0F80510922B5C852C9 /* Pods-WaniKaniKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2017,12 +2034,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaniKaniKit/Pods-WaniKaniKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlliCrab/Pods-AlliCrab.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WaniKaniKit/Pods-WaniKaniKit.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2039,29 +2056,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B9F0DB3C61F01A49C52BC7B16D12520 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKitTests" */ = {
+		01A33A61DC910D300551D630EDED998F /* Build configuration list for PBXNativeTarget "1PasswordExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F48E840CED2166882059530C4A6141B /* Debug */,
-				366D3C3B4C721864E513D9387279760B /* Release */,
+				B08F07B91E71989C126654B2805616BE /* Debug */,
+				F66F70BB1E97EE7C277ABF6F1F5D7681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DA01BED7A5D9707765FDD056F029EE7 /* Build configuration list for PBXNativeTarget "Pods-AlliCrab" */ = {
+		0C45D995F9A96849FE35607F12F9CE77 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniStudyQueueWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9A0331C433F815F0E782750D11A70E1 /* Debug */,
-				26149E510BD97F337C857E6BBD6E93B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23083BAEC58B161CA81BA7A334A29206 /* Build configuration list for PBXNativeTarget "sqlite3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64CFF7A0160187E6FD448384D1A8039A /* Debug */,
-				AA9B67BF0B6504AF9B5DCE47C8CE32EB /* Release */,
+				164BCB53F6132C3F349DFE99722D5B38 /* Debug */,
+				6CE0CF205E5B4CF1C093721ABED73C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2075,65 +2083,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63566F056B64384F852F1E05F26BDF3F /* Build configuration list for PBXNativeTarget "Pods-WaniKaniStudyQueueWidget" */ = {
+		4A6057B7123B8D289DA21224E0E1CAA3 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D4A06F39CA536AA3A165E781908D607 /* Debug */,
-				247B6DE7075CA6799ABC027D024DF2CD /* Release */,
+				5B95C14041B62A21460C7E1878EFE646 /* Debug */,
+				B0BA0C09CFB9554013E8F16C6AC37615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FADE8393C038C74A6E9136737B30A53 /* Build configuration list for PBXNativeTarget "Pods-AlliCrabUITests" */ = {
+		563F92D368458D1311AF0AFCC6F5FDED /* Build configuration list for PBXNativeTarget "sqlite3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7F7A1FDD2458B331475D22E67A312EF /* Debug */,
-				2E3F490057226A39C0515DD48A1B07BE /* Release */,
+				7BCE8B84C46DCE567ED9DCD0778E8D49 /* Debug */,
+				AF7392BF2AE6CE7AD1D984BF2224ADC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F70AEA105443010862D137034FA28F5 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKit" */ = {
+		9C99B1AB5EFC2EB35F426265AC4FAAFA /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15114257ABEF6DED264FA045E4D16E0F /* Debug */,
-				4B6395E1A0B02110C3E9F5888160D5A8 /* Release */,
+				33EA153119E7726BFC382B67CED47826 /* Debug */,
+				70DE6F0C99F5DBDA4109625B931D2CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA09333EBDBBC9C360E3E0D69DB8083 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+		ADDEA218387806448432503B18D71900 /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				808FD0DD1B833C255D5BE94093DBF88B /* Debug */,
-				6E632C110E5475824CE6CB5F7AB3DD64 /* Release */,
+				FD7397AA6F51422F918CCCAA969DDFD5 /* Debug */,
+				4DCBCD00BAB16F91E2617A3A28E37DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE9FD9973C16AB8497467654BE62CC8C /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */ = {
+		C7C4C3A72C0EB3EFF9ED47EBEEB4D905 /* Build configuration list for PBXNativeTarget "Pods-AlliCrab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA001FE80945E625DD6F8FEA9E36C90D /* Debug */,
-				A9CEF3037B0F2622A796804579D28CBD /* Release */,
+				8FC61B441EE0BBE7C16618D64AE4844A /* Debug */,
+				7E801811D06F75905FD06F242FCC30DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E96A03F53D8E4CEA5FD2B944A11C73C6 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */ = {
+		DD338E7F1D888ED1A834F363866251DB /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46BD38A41965F3769E71099F4818EA0A /* Debug */,
-				8B3840C0297178F01DDA6DF5CB8BAA8F /* Release */,
+				7261542F655D5D94B8054FCF486F8026 /* Debug */,
+				D0888D6BA1EE12FCCFC74A71FC7C713C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEA691AF392E6CC2815A84673985DE96 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */ = {
+		F4794789699B9EE43BD2D8744E832C57 /* Build configuration list for PBXNativeTarget "Pods-AlliCrabUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09B0B32D65A7C37BA708C413140DFC25 /* Debug */,
-				8AD981564F7C424F819350859231DFA7 /* Release */,
+				7A12473BD1E486DFC2322F480C13446D /* Debug */,
+				0E84082EC42E9CEE6F42C3561E74C75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7C11A57EE4F78D720934419375B8CB /* Build configuration list for PBXNativeTarget "Pods-WaniKaniKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1F83247277CD9EE3B956960C30DF56 /* Debug */,
+				546A3CCB41EF21007D33EC432F7A68B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
