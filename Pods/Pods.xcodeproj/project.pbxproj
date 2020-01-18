@@ -194,9 +194,9 @@
 		23458F468EDDE58ACF84C94813AB4F18 /* Pods-AlliCrab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlliCrab-frameworks.sh"; sourceTree = "<group>"; };
 		23BD7F2CC16861AB6C335A6C2C3B05BC /* Pods-WaniKaniKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaniKaniKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		23E16B40907A97BF0F2439710DABCF44 /* Pods-AlliCrab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlliCrab-dummy.m"; sourceTree = "<group>"; };
-		23FA6B292410E98FEDF6C3F57BAE74B2 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = "sqlite-amalgamation-3300100/sqlite3.c"; sourceTree = "<group>"; };
-		267EAC59542B3DCA37815E086A02C12B /* Pods_WaniKaniStudyQueueWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniStudyQueueWidget.framework; path = "Pods-WaniKaniStudyQueueWidget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B8C1ED275BCEE0AB97805809867586C /* Pods_AlliCrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlliCrab.framework; path = "Pods-AlliCrab.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FA6B292410E98FEDF6C3F57BAE74B2 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = "sqlite-amalgamation-3300100/sqlite3.c"; sourceTree = "<group>"; };
+		267EAC59542B3DCA37815E086A02C12B /* Pods_WaniKaniStudyQueueWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniStudyQueueWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C1ED275BCEE0AB97805809867586C /* Pods_AlliCrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlliCrab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C61D1C5795A53A2AAEED94D9C698007 /* Pods-WaniKaniKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaniKaniKitTests-dummy.m"; sourceTree = "<group>"; };
 		317F865C2F842AD6CE534EDCD44E6736 /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
 		347999265A0A7ABD77FF97BB7A3C8380 /* Pods-AlliCrabUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlliCrabUITests-dummy.m"; sourceTree = "<group>"; };
@@ -210,11 +210,11 @@
 		4E1F303B2735E7878311144EAC26CD33 /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
 		4E3981821C2E79D54C3054BCD183F14C /* Pods-WaniKaniKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaniKaniKitTests-umbrella.h"; sourceTree = "<group>"; };
 		50ED7087C4B9768A630AFF4420FC0096 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		5198952392F955B8435817C261905E6C /* Pods_WaniKaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniKit.framework; path = "Pods-WaniKaniKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5198952392F955B8435817C261905E6C /* Pods_WaniKaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		535C3D746A19B0D080C3927DEA4EC2B4 /* Pods-AlliCrab-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrab-Info.plist"; sourceTree = "<group>"; };
 		55A6476DF5E7F8A67FDC99CF9A638D8A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnePasswordExtension.framework; path = 1PasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A181427BDDEFB89712C1FB69850942 /* Pods-WaniKaniKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaniKaniKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A72D1434DEE08DC0487AF1474F21110 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
 		5E8583BC9402325ECA1387EFF1EA3FD5 /* 1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
@@ -250,23 +250,23 @@
 		96B95075B5BB1C1B7AFBC2012AB892EA /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite-amalgamation-3300100/sqlite3ext.h"; sourceTree = "<group>"; };
 		96EEC35E5378815786ACE09EFB4ED494 /* Pods-WaniKaniKitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaniKaniKitTests-frameworks.sh"; sourceTree = "<group>"; };
 		9CC7B6056BF74894E21706445A2B0134 /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB26E7DA4B4624A07C99BC1D02475E4 /* SDStatusBarOverriderPost10_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.h; sourceTree = "<group>"; };
 		A229451B8893D937CD331AA2EAEC6790 /* Pods-WaniKaniKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniKitTests-Info.plist"; sourceTree = "<group>"; };
 		A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimulatorStatusMagic.framework; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A7B587B1093BB58B948E08D112C6ED /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
 		A80019CCA8C1449FAD14A3B18704AA51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		AB0E96F75BECB9BCC917DE9D444945C6 /* Pods-AlliCrabUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlliCrabUITests-frameworks.sh"; sourceTree = "<group>"; };
-		AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OnePasswordExtensionResources.bundle; path = "1PasswordExtension-OnePasswordExtensionResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePasswordExtensionResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE5B1548458BB187EC1C4C3A3FD10EF /* SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
 		ACE6FD6F778B352B1130643EE663875E /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
 		AD17C4E0530721F948AC75DF4C77176C /* Pods-AlliCrabUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlliCrabUITests-Info.plist"; sourceTree = "<group>"; };
 		B42D0123C32B66EE0A4E10BD3640DD72 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		B4507A8AA0AD81E8DFC98020268EFC72 /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqlite3.framework; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4507A8AA0AD81E8DFC98020268EFC72 /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorStatusMagic.xcconfig; sourceTree = "<group>"; };
-		B6D164C60F4D93D2F8A502013EAFA4C2 /* Pods_WaniKaniKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaniKaniKitTests.framework; path = "Pods-WaniKaniKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D164C60F4D93D2F8A502013EAFA4C2 /* Pods_WaniKaniKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaniKaniKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F3F86A3D8232013B194EF6C445648C /* Pods-WaniKaniStudyQueueWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaniKaniStudyQueueWidget-umbrella.h"; sourceTree = "<group>"; };
 		B84E151707D52E203FEB33EA985BD905 /* Pods-WaniKaniStudyQueueWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaniKaniStudyQueueWidget-Info.plist"; sourceTree = "<group>"; };
 		BC3C166159E01A0BC6717F6A09B2F1EC /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 		F115A7AD30CC7E9DF3740678AFAA75B4 /* sqlite3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sqlite3.modulemap; sourceTree = "<group>"; };
 		F199A1DF1B6EEC4CA97C9934F96DBE9F /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		F2013A86B1CC60A5F1E7A53192D93DAB /* SimulatorStatusMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-umbrella.h"; sourceTree = "<group>"; };
-		F2A104DB34EE9B6E1955A7EEF714A9A0 /* Pods_AlliCrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlliCrabUITests.framework; path = "Pods-AlliCrabUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A104DB34EE9B6E1955A7EEF714A9A0 /* Pods_AlliCrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlliCrabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE9E983325C59D6C6AD180FBDEC01F /* 1PasswordExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = 1PasswordExtension.modulemap; sourceTree = "<group>"; };
 		F8924B1084D117AE3BBEA4F2E75C969C /* SDStatusBarOverriderPost12_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost12_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost12_0.m; sourceTree = "<group>"; };
 		FD1F142E552500E1F45A45EF6E4EDB91 /* SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
@@ -393,7 +393,6 @@
 				3D6921E883C655C64C95795AAF56D299 /* standalone */,
 				D82AB499E007EFEC4BB8010C5C34132B /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -542,7 +541,6 @@
 				D5149C2F35800D8E9547FECC863769D6 /* Resources */,
 				7F65DA9975F59D6ACD0C413E8F0D99F8 /* Support Files */,
 			);
-			name = 1PasswordExtension;
 			path = 1PasswordExtension;
 			sourceTree = "<group>";
 		};
@@ -552,7 +550,6 @@
 				8068114C16ED4AD469747BD8CBC5A72B /* common */,
 				58E077846494389F099DB6DD28574088 /* Support Files */,
 			);
-			name = sqlite3;
 			path = sqlite3;
 			sourceTree = "<group>";
 		};
@@ -672,7 +669,6 @@
 				A2BF764643A93165B2D1DB88B9B9C3E3 /* SDStatusBarOverriderPre8_3.m */,
 				7C8B87095B56A78E681B10DD4A352FE8 /* Support Files */,
 			);
-			name = SimulatorStatusMagic;
 			path = SimulatorStatusMagic;
 			sourceTree = "<group>";
 		};
@@ -990,7 +986,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -1285,7 +1281,6 @@
 			baseConfigurationReference = 938771FB0EC1F70C5EF8C2A22288B330 /* Pods-AlliCrabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1321,7 +1316,6 @@
 			baseConfigurationReference = 731CA810FF6E5E6F36203A2C31E7E462 /* Pods-WaniKaniStudyQueueWidget.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1404,8 +1398,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1415,7 +1408,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1448,7 +1440,6 @@
 			baseConfigurationReference = 76D51FB2D9EBA279DF0C216EEF6669B7 /* Pods-WaniKaniKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1484,7 +1475,6 @@
 			baseConfigurationReference = FEF8D37F128CFCA8DA11C1EBD8053C17 /* Pods-WaniKaniKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1537,7 +1527,6 @@
 			baseConfigurationReference = 8B1EEF9C803F4D3A3B8B3379097DAC72 /* Pods-WaniKaniStudyQueueWidget.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1572,7 +1561,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 529C551F2B36AAA510AE3A59F420F549 /* FMDB.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1605,7 +1593,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1638,7 +1625,6 @@
 			baseConfigurationReference = 8B4C359F74AF8FC64FADE0F28BAADE4D /* Pods-AlliCrabUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1672,7 +1658,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1705,7 +1690,6 @@
 			baseConfigurationReference = 1C503CCF951DDB6653298DBEE6EFBEAF /* Pods-AlliCrab.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1741,7 +1725,6 @@
 			baseConfigurationReference = DE85C21D06F56F30737683133165A4C5 /* Pods-AlliCrab.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1775,7 +1758,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E11932E3EFBA0394E9C7B07180041D19 /* sqlite3.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1808,7 +1790,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1858,7 +1839,6 @@
 			baseConfigurationReference = 23BD7F2CC16861AB6C335A6C2C3B05BC /* Pods-WaniKaniKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1892,7 +1872,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5DA6C12674D2AE280B801551ECAAA3C /* SimulatorStatusMagic.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1989,7 +1968,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F0709161EF152C11488B288AF40B6B8 /* 1PasswordExtension.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2023,7 +2001,6 @@
 			baseConfigurationReference = DBEBC4BEC6206C0F80510922B5C852C9 /* Pods-WaniKaniKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
