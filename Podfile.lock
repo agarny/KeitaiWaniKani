@@ -3,10 +3,10 @@ PODS:
   - FMDB/standalone (2.7.5):
     - sqlite3
   - SimulatorStatusMagic (2.4.1)
-  - sqlite3 (3.30.1):
-    - sqlite3/common (= 3.30.1)
-  - sqlite3/common (3.30.1)
-  - sqlite3/fts5 (3.30.1):
+  - sqlite3 (3.31.1):
+    - sqlite3/common (= 3.31.1)
+  - sqlite3/common (3.31.1)
+  - sqlite3/fts5 (3.31.1):
     - sqlite3/common
 
 DEPENDENCIES:
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   1PasswordExtension: 0e95bdea64ec8ff2f4f693be5467a09fac42a83d
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   SimulatorStatusMagic: 28d4a9d1a500ac7cea0b2b5a43c1c6ddb40ba56c
-  sqlite3: d47c022c998fdba385ca61fad2b29161533a7fd5
+  sqlite3: d72537554fb149ce43ece11a2fe6d42d21b3743f
 
 PODFILE CHECKSUM: 190b90301bc8cb46e6d63a217259aa94027166d2
 
